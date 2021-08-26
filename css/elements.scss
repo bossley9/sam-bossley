@@ -126,6 +126,7 @@
 
   tr:nth-child(even) {
     @extend .bg-greyd;
+    @extend .d-bg-text-dark;
   }
 }
 
