@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: House of Leaves by Mark Z. Danielewski (2000)
 desc: My review of the book House of Leaves
-date: 11/11/19
-lastUpdated: 04/12/20
+date: 2019-11-11 00:00:00
 tags:
   - review
   - book
@@ -21,7 +21,7 @@ Zampano also does an amazing job of developing characters in his account. It's v
 
 I actually didn't appreciate the ending. I felt as though the ending was too concise and... straightforward? I find it impossible to believe Navidson finished Exploration #5 alive, or that Karen faced her fears despite withstanding the house's cold rooms.
 
-The story reminded me a lot of the premise of [Monster House (2006)](https://en.wikipedia.org/wiki/Monster_House_(film)) for some bizarre reason - a house with paranormal phenomena surrounding it?
+The story reminded me a lot of the premise of [Monster House (2006)](<https://en.wikipedia.org/wiki/Monster_House_(film)>) for some bizarre reason - a house with paranormal phenomena surrounding it?
 
 And now to Johnny Truant's account.
 

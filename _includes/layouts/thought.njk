@@ -1,0 +1,16 @@
+---
+layout: layouts/main
+permalink: "/thoughts/{{ title | slugClean }}/index.html"
+---
+
+<article class="thought">
+  <h1 class="title">{{ title | title }}</h1>
+  <span>{{ date | dateFmt }}</span>
+  <span class="divider">&middot;</span>
+  {% for tag in tags | sort %}
+    <a class="tag" href="/tags/{{ tag | slugClean }}">{{ tag }}</a>
+  {% endfor %}
+  <p class="read-time">{{ content | readLength }} min read</p>
+
+  {{ content | safe }}
+</article>

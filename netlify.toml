@@ -1,15 +1,3 @@
 [build]
-  command = "yarn deploy"
-  publish = "out"
-
-[build.processing]
-  bundle = true
-  minify = true
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[plugins]]
-  package = "netlify-plugin-cache-nextjs"
+  publish = "_site"
+  command = "npm run build"

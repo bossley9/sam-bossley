@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: Grand Theft Auto V (2013)
 desc: My thoughts on Grand Theft Auto V
-date: 07/03/20 19:18
-lastUpdated: 07/04/20 12:16
-image: "/thoughts/gta-v-cover-art.jpg"
+date: 2020-07-03 19:18:00
+image: "/public/thoughts/gta-v-cover-art.jpg"
 tags:
   - review
   - video game
@@ -11,7 +11,7 @@ tags:
 
 Grand Theft Auto V is simultaneously both the best and worst game you could own as a child. Its obscene depictions of America, graphic violence, pornography, sex, drugs, and, of course, the infamous torture mission, make this game something for parents avoid, but it also teaches some of the most important lessons in life, including eternal friendship, forgiveness, and questions about morally ambiguous actions. But even as a seven year old game and twenty year old game series, Grand Theft Auto's combination of minute details, engaging story, and genuine dialogue make the game feel as if it was released yesterday.
 
-![game cover art](/thoughts/gta-v-cover-art.jpg)
+![game cover art](/public/thoughts/gta-v-cover-art.jpg)
 
 As a kid, I was never allowed to own any GTA games. They were "too violent" and "too sexual". Frankly, I don't think my dad quite understood the extent of sexual content present in these kinds of games, or he never would have allowed me and my siblings to play GTA IV for short blurps of time at my uncle's house. But those young years blowing up cars and beating up pedestrians sparked my interest in this seemingly one-dimensional game series. It wasn't until I received the game via Epic Games that I seriously considered playing the latest installment, and I am truly blown away by how good it is.
 
@@ -25,9 +25,9 @@ In the mishandling of an affair, Michael accidentally angers Martin Madrazzo, on
 
 They successfully pull off the heist, and witnesses describe the robbers on television. The perspective switches to Trevor, a middle-aged druglord living in the middle of nowhere, who learns that Michael is still alive. He fights through a couple gang incidents before travelling to Los Santos find Michael. Trevor wants to reunit the old gang of robbers with Michael, Trevor, Lestor, and Brad, who supposedly is confined to a penitentiary in North Yankton. We later learn that this was never the case, and that Michael worked with the FIB to erase his past at the cost of faking his own death and Brad's life.
 
-I don't want to bore you with mundane details of every dealing and score, but the game hosts a large number of heists, scores, operations, and dealings with gangs and organizations taken by the three main characters. Michael's family leaves him due to his terrible nature, and Trevor's anger issues occasionally get the best of him. They are dragged into many affairs involving the Feds, and eventually  Trevor realizes that Brad is already dead, and he begins to hate Michael. Franklin wants to keep the gang together, but tensions grow high as they begin to resent each other. They are all brought together, however, with one final score - the Union Depository, with over $200 Million in gold bars. They vow that after the big score, they can all go their separate ways. The gang keeps it together, successfully robs the depository, and then ties up loose ends by killing people who might speak (Steve Hanes, Stretch, Wei Ching, and, finally, Devin Weston). The game ends on a high note - Michael and his family are reunited, his name is cleared, all loose ends are met, and Franklin, Michael, and Trevor all leave, calling each other friends*.
+I don't want to bore you with mundane details of every dealing and score, but the game hosts a large number of heists, scores, operations, and dealings with gangs and organizations taken by the three main characters. Michael's family leaves him due to his terrible nature, and Trevor's anger issues occasionally get the best of him. They are dragged into many affairs involving the Feds, and eventually  Trevor realizes that Brad is already dead, and he begins to hate Michael. Franklin wants to keep the gang together, but tensions grow high as they begin to resent each other. They are all brought together, however, with one final score - the Union Depository, with over $200 Million in gold bars. They vow that after the big score, they can all go their separate ways. The gang keeps it together, successfully robs the depository, and then ties up loose ends by killing people who might speak (Steve Hanes, Stretch, Wei Ching, and, finally, Devin Weston). The game ends on a high note - Michael and his family are reunited, his name is cleared, all loose ends are met, and Franklin, Michael, and Trevor all leave, calling each other friends\*.
 
-*This game actually contains three endings, but this ending is the one I consider to be the "correct" ending.
+\*This game actually contains three endings, but this ending is the one I consider to be the "correct" ending.
 
 One of the main reasons I came to love this game is for the sheer detail packed into the game. On the topic of detail, I don't necessarily mean rendered graphics or physical appearances, although they do play a role in the overall composure of the game; rather, I'm more interested in how genuine the game feels. Each character interaction, dialogue sequence, and personal motivations all feel like they're real. The main characters don't sound like  robots in the cinematics - their dialogue is playful, personal, and "colorful". Trevor often tells Michael to "fuck off", and Michael calls Trevor a "pussy" and other names as playful fun. The dialogue of all the characters in the game sound like they could come from people in real life, and realism is a key element of a good game.
 
@@ -61,15 +61,15 @@ But it's not just the graphics that get me. The movements are genuine. Even in t
 
 In addition to the gameplay graphics, the promotional graphics are so cool. GTA uses an iconic cover art in all games of the series. The panel placement tells bits and pieces of an overall story. It is visual appealing and tells just enough key moments of the story to interest potential buyers, but not enough to give away the storyline, enticing people to buy the game.
 
-![game cover art](/thoughts/gta-v-cover-art.jpg)
+![game cover art](/public/thoughts/gta-v-cover-art.jpg)
 
-![main character cover art](/thoughts/gta-v-main-character-cover-art.jpg)
+![main character cover art](/public/thoughts/gta-v-main-character-cover-art.jpg)
 
 The loading screens are also very artistic. Instead of displaying a simple image, the screens instead display a foreground character and a background scene relevant to the character. These characters are all characters you can meet from side missions or various interactions. The background panel will be at a various angle, and in a cool parallax fashion, the panel will move at a different speed than the foreground character. I'm slightly biased in this sense since I absolutely love parallax effects, but this is one of the coolest loading screens a game can have. I can't really show an animation so photos will have to make do.
 
-![Franklin loading screen](/thoughts/gta-v-franklin-loading.jpg)
+![Franklin loading screen](/public/thoughts/gta-v-franklin-loading.jpg)
 
-![girl loading screen](/thoughts/gta-v-girl-loading.jpg)
+![girl loading screen](/public/thoughts/gta-v-girl-loading.jpg)
 
 I can't talk about about GTA V without talking about its [infamous torture scene](https://www.youtube.com/watch?v=A_JyincexX4). Video games are a commonly forgotten form of media, and people make media to tell stories and political messages. Often times, story-based video games (like GTA) can be compared to movies - both with a core storyline, themes, and some social commentary. In the main storyline, there is a mission that involves brutally torturing someone in order to retrieve information on a target. If this were a movie, people would likely pass this off as a trivial matter, but as a player playing a key component in the torture, it questions the morality of such a mission. I personally was sickened, almost to the point of quitting the game, when I had to manually pull out this man's tooth, and waterboard him. It's much more intense when the perpetrator is effectively you, the player, and this specific scene sequence brings up a lot of questions about video games and virtual worlds we like to avoid - is violence and murder justified in a video game? That may seem like an easy question, but it becomes a much greater problem when you also ask if torture, rape, or paedophilia is acceptable in a video game with the playable character as the perpetrator. And if not, what makes the difference in crimes between murder and rape, or paedophilia? Trauma? To a video game character?
 

@@ -1,0 +1,22 @@
+{% macro create(thoughts = []) %}
+  <nav class="thoughtslist">
+    {% if thoughts | length %}
+      <ul>
+        {% for thought in thoughts %}
+          <li>
+            <p>
+              <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title | title }}</a></h2>
+              <span>{{ thought.data.date | dateFmt }}</span>
+              <span class="divider">&middot;</span>
+              {% for tag in thought.data.tags | sort %}
+                <a class="tag" href="/tags/{{ tag | slugClean }}">{{ tag }}</a>
+              {% endfor %}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      Oh no! There's no content here!
+    {% endif %}
+  </nav>
+{% endmacro %}

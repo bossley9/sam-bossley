@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: "Jojo's Bizarre Adventure: Stone Ocean (2000-2003)"
 desc: My review of the sixth part of Jojo, Stone Ocean
-date: 04/19/20 00:29
-lastUpdated: 04/19/20 12:55
-image: "/thoughts/stone-ocean-end.jpg"
+date: 2020-04-19 00:29:00
+image: "/public/thoughts/stone-ocean-end.jpg"
 tags:
   - review
   - manga
@@ -44,5 +44,4 @@ After contemplating the ending, it's unclear whether Pucci or Jolyne won. Pucci 
 
 I think the last art scene itself is also significant. It shows all the main characters faded in the clouds. Throughout the series this has been used to indicate that a character has died. In this instance, it demonstrates that all the main protagonists have died, including Jotaro and Jolyne. It shows that even if the world is alternate and "Irene" and "Annakiss" exist, they will never be the same as the original team.
 
-![Stone Ocean ending panel](/thoughts/stone-ocean-end.jpg)
-
+![Stone Ocean ending panel](/public/thoughts/stone-ocean-end.jpg)

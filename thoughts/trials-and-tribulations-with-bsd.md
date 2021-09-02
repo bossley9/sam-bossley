@@ -1,8 +1,8 @@
 ---
-title: 'Trials and Tribulations with OpenBSD'
+layout: layouts/thought
+title: "Trials and Tribulations with OpenBSD"
 desc: As I trudged through working with and setting up the various BSDs, I wanted to document my findings and why I will continue using OpenBSD in the future.
-date: 01/13/21 01:30
-lastUpdated: 01/13/21 01:30
+date: 2021-01-13 01:30:00
 tags:
   - tech
 ---
@@ -39,7 +39,7 @@ Hierarchy is actually the sole reason I switched to OpenBSD and FreeBSD in the f
 
 One of Windows' greatest flaws is its file organization. As with most operating systems, Windows organizes its files based upon the separation of physical storage - two hard drives means that two file system drives will exist on the computer (usually it defaults to naming these `C:` and `D:`). However, each drive comprises of poor organization. Here's an example of the root directory of an average Windows drive.
 
-![A standard Windows directory hierarchy with the root directory comprised of the folders "Program Files", "Program Files (x86)", "ProgramData", "Users", and "Windows"](/thoughts/trials-trib-hier-windows.png)
+![A standard Windows directory hierarchy with the root directory comprised of the folders "Program Files", "Program Files (x86)", "ProgramData", "Users", and "Windows"](/public/thoughts/trials-trib-hier-windows.png)
 
 Let me ask this - if I wanted to find the files for Google Chrome, what folder would I look in? `Program Files/`? `Program Files (x86)/`? Or maybe even `ProgramData/`? And what's the difference between those folders anyways? If `Program Files/` contains most program files, why are the _file explorer_ files located in the `Windows/` folder?
 
@@ -51,7 +51,7 @@ I would be surprised if a regular Windows user could answer any of those questio
 
 In stark contrast, the [file hierarchy of OpenBSD](https://man.openbsd.org/hier) is much easier to understand. In fact, could even be described with the term "intuitive" - something a legacy DOS system such as Windows could never achieve.
 
-![A standard OpenBSD directory hierarchy - complete with manual pages for additional documentation in case it wasn't intuitive enough](/thoughts/trials-trib-hier-openbsd.png)
+![A standard OpenBSD directory hierarchy - complete with manual pages for additional documentation in case it wasn't intuitive enough](/public/thoughts/trials-trib-hier-openbsd.png)
 
 Instead of a lack of folder clarity, OpenBSD provides a multitude of root directory folders with specific purposes for each. For example, all binaries (executables) are placed in a `/bin` folder. All temporary files, buffers, and pipes are stored in `/tmp`. All user-specific files are contained within a `/usr` folder. All libraries are contained in `/lib`. All local files are stored in `/local`. Devices are managed in `/dev/`. Mountable devices are mounted in `/mnt`.
 
@@ -146,24 +146,24 @@ Where do I even begin? Let me preface by saying that software developers have a 
 Here are the modern logos for Archlinux, FreeBSD, MacOS, OpenBSD, and Windows side by side.
 
 **Archlinux**
-![The Archlinux logo](/thoughts/trials-trib-archlinux-logo.png)
+![The Archlinux logo](/public/thoughts/trials-trib-archlinux-logo.png)
 **FreeBSD**
-![The FreeBSD logo](/thoughts/trials-trib-freebsd-logo.png)
+![The FreeBSD logo](/public/thoughts/trials-trib-freebsd-logo.png)
 **MacOS/Apple**
-![The MacOS Apple logo](/thoughts/trials-trib-apple-logo.png)
+![The MacOS Apple logo](/public/thoughts/trials-trib-apple-logo.png)
 **OpenBSD**
-![The OpenBSD logo](/thoughts/trials-trib-openbsd-logo.jpg)
+![The OpenBSD logo](/public/thoughts/trials-trib-openbsd-logo.jpg)
 **Windows**
-![The Windows 10 logo](/thoughts/trials-trib-windows-logo.jpg)
+![The Windows 10 logo](/public/thoughts/trials-trib-windows-logo.jpg)
 
 In the words of Linguini from Ratatouille: ["It's not much, but... it's not much."](https://youtu.be/y2n5dLpETbM?t=200)
 
 Although the OpenBSD logo (named "Puffy") is poor in design and severely outdated (not to mention mildly terrifying), some fans of the operating system have created more user-friendly icons:
 
-![Patched Puffy](/thoughts/trials-trib-patched-puffy.png)
+![Patched Puffy](/public/thoughts/trials-trib-patched-puffy.png)
 "Patched" Puffy, in celebration of the latest 6.8 release.
 
-![Cartoon Puffy](/thoughts/trials-trib-cartoon-puffy.png)
+![Cartoon Puffy](/public/thoughts/trials-trib-cartoon-puffy.png)
 A cartoon variant of Puffy to be the front face for the merch and artwork pages.
 
 In addition, the OpenBSD community makes [amazing fanart and audio originals for each new release](https://www.openbsd.org/artwork.html) (and yes, I said audio originals).

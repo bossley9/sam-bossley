@@ -1,10 +1,10 @@
 ---
+layout: layouts/thought
 title: Update
 desc: An arbitrary update
-date: 05/14/21 11:04
-lastUpdated: 05/14/21 11:04
+date: 2021-05-14 11:04:00
 tags:
-  - update
+  - reflection
 ---
 
 Hello, this is the arbitrary update you never asked for. No need to get your hopes up.

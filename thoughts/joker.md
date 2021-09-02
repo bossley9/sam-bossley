@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Joker (2019)
 desc: My opinion of the movie Joker
-date: 10/14/19 22:59
-lastUpdated: 10/14/19 22:59
+date: 2019-10-14 22:59:00
 tags:
   - movie
   - review

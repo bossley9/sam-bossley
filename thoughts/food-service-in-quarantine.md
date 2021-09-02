@@ -1,10 +1,11 @@
 ---
-title: 'Food Service in Quarantine'
+layout: layouts/thought
+title: "Food Service in Quarantine"
 desc: "After working in the food industry for nearly a year in quarantine, I thought it might be prudent to give my thoughts on what it's like to work in the industry during COVID-19 - as well as provide some general information and tips to customers and delivery drivers about experiences from the perspective of a restaurant employee."
-date: 02/04/21 00:19
-lastUpdated: 02/04/21 00:19
+date: 2021-02-04 00:19:00
 tags:
   - reflection
+  - suggestion
 ---
 
 I have had the fortunate privilege of working a food service serving job amidst a jobless, heartless pandemic. This job is very different from every other job I have worked at because I have never previously worked in the non-corporate food industry, much less in a cultural food business. I work at a small family-owned Japanese-Korean business managed by the owner, her husband, and the occasional help of her two sons. Over the course of the past year that I have worked here, I have learned so much about working in the food industry during a pandemic. I will to share my conclusions with you in hopes that you can empathize with me and learn from my experiences in the food industry to apply to yourself as a customer. I hope you remember my experiences the next time you eat restaurant food.

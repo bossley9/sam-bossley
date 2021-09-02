@@ -1,8 +1,8 @@
 ---
-title: 'Blissful (Deliberate) Ignorance'
+layout: layouts/thought
+title: "Blissful (Deliberate) Ignorance"
 desc: In this article I examine what it means for ignorance to be deliberate. People tend to deliberately deny things they refuse to be true in the face of irrefutable evidence.
-date: 12/16/20 01:39
-lastUpdated: 12/16/20 01:39
+date: 2020-12-16 01:39:00
 tags:
   - commentary
 ---

@@ -1,15 +1,15 @@
 ---
+layout: layouts/thought
 title: Little Nightmares (2017)
 desc: In this article, I review why I think Little Nightmares is a fantastic horror game, as well as what makes a good horror game.
-date: 03/28/21 16:50
-lastUpdated: 03/28/21 16:50
-image: '/thoughts/little-nightmares-cover.jpg'
+date: 2021-03-28 16:50:00
+image: "/public/thoughts/little-nightmares-cover.jpg"
 tags:
   - review
   - video game
 ---
 
-![A portion of the poster of Little Nightmares depicting a girl in a yellow rainjacket holding a lighter on a table, with a massive hand gripping the table beneath](little-nightmares-cover.jpg)
+![A portion of the poster of Little Nightmares depicting a girl in a yellow rainjacket holding a lighter on a table, with a massive hand gripping the table beneath](/public/thoughts/little-nightmares-cover.jpg)
 
 Admittedly, I'm not the biggest fan of the horror genre.
 
@@ -33,23 +33,23 @@ The game does not delineate any prologue, writing, or dialogue, so all of the pl
 
 You eventually observe that there are other beings in this machine besides you - [benevolent cone-shaped beings even smaller than you](https://youtu.be/YYMx7RU0Igc?t=312), who scurry away in fear at first sight. The player is also introduced to small black slug beings which only reside in the dark places in the machinery and [will kill the player if possible](https://youtu.be/YYMx7RU0Igc?t=395).
 
-![A nome with a cone-shaped head](little-nightmares-nome.jpg)
+![A nome with a cone-shaped head](/public/thoughts/little-nightmares-nome.jpg)
 
 In a large open bridge platform the player gets [a glance of a much larger and intimidating being moving inside the compound dragging a cage](https://youtu.be/YYMx7RU0Igc?t=524), indicating that perhaps the main character is attempting escape. The character's tiny scale is emphasized further with massive household objects and rooms.
 
-![A room containing furniture, a briefcase, and slippers much bigger than the main character](little-nightmares-scale.jpg)
+![A room containing furniture, a briefcase, and slippers much bigger than the main character](/public/thoughts/little-nightmares-scale.jpg)
 
 In [a terrifyingly closer encounter with the larger being](https://youtu.be/YYMx7RU0Igc?t=798) (referred to as the "Janitor"), we learn that other children like us seem to be held hostage against their will in this mechanical compound by larger beings. This confirms that the main character is attempting escape.
 
 While navigating the compound, the player is introduced to [the main conflict of the game - hunger](https://youtu.be/YYMx7RU0Igc?t=929). The main character is constantly hungry to the point of debilitation. Fortunately, another child offers you food, which you gratefully accept. However, the [next time hunger fuels the main character, she falls prey to a trap sprung by the Janitor](https://youtu.be/YYMx7RU0Igc?t=1958). Escaping captivity, the player also learns that the children are presumably killed and their bodies wrapped to be delivered. The player also learns of the Janitor's strengths (abnormally long arms used for navigation) and weaknesses (blindness and large size). After playing "hide and seek" with her captor, she eventually escapes his reach permanently by [severing his arms](https://youtu.be/YYMx7RU0Igc?t=3729).
 
-![Six running in the foreground with the Janitor in the background tilting his head. The Janitor has abnormally long arms, a hat, a coat, and short, stubby legs](little-nightmares-janitor.jpg)
+![Six running in the foreground with the Janitor in the background tilting his head. The Janitor has abnormally long arms, a hat, a coat, and short, stubby legs](/public/thoughts/little-nightmares-janitor.jpg)
 
 Hunger once again takes hold of the character and you are [forced to eat a rat to survive](https://youtu.be/YYMx7RU0Igc?t=3886).
 
 Continuing forth, you arrive in a kitchen filled with [pompous hideous beings who prepare large quantities of food into meals](https://youtu.be/YYMx7RU0Igc?t=4007) (presumably gathered from the wrapped bodies mentioned previously).
 
-![The two chefs side by side. Both are abnormally large with drooping faces and dead expressions](little-nightmares-chefs.jpg)
+![The two chefs side by side. Both are abnormally large with drooping faces and dead expressions](/public/thoughts/little-nightmares-chefs.jpg)
 
 Thwarting the throes of the hidious beings, the main character eventually finds [a way outside the compound](https://youtu.be/YYMx7RU0Igc?t=5432), and the player learns they have been on a massive iron ship the entire game. The ship is [loading large people who make their way onto the ship](https://youtu.be/YYMx7RU0Igc?t=5552) to [eat all the food the chefs prepare](https://youtu.be/YYMx7RU0Igc?t=5660).
 
@@ -75,7 +75,7 @@ Similarly, the game never tells the player they are on an iron ship; rather, it 
 
 I love that this game contains no dialogue or english text. A big irritation for a lot of game enthusiasts is what I call the excessive "wall of text", in which a game will provide large bodies of text for the player to read to understand the story or learn the mechanics. This breaks immersion and pauses the player's gameplay for them to strain their eyes to read information. It's jarring and lazy on behalf of the game developers.
 
-![Assassin's Creed: Valhalla conveying the story or quest plot through a text document that is a paragraph long](little-nightmares-wall-of-text.jpg)
+![Assassin's Creed: Valhalla conveying the story or quest plot through a text document that is a paragraph long](/public/thoughts/little-nightmares-wall-of-text.jpg)
 
 > An example of a "wall of text" in Assassin's Creed: Valhalla (2020). I understand that the quest is supposed to be a puzzle but I don't think that anyone in their right mind plays a video game with the intent of reading paragraphs like this.
 
@@ -87,7 +87,7 @@ Similarly, the game features no objectives. There are no text instructions, no a
 
 Modern games ruin immersion with text objectives because it detracts from the experience and fun of the game. Instead of exploring areas yourself, you end up reading and following a list of instructions.
 
-![Assassin's Creed: Odyssey displaying text objectives which give detailed instructions on where to go and what to do](little-nightmares-objectives.png)
+![Assassin's Creed: Odyssey displaying text objectives which give detailed instructions on where to go and what to do](/public/thoughts/little-nightmares-objectives.png)
 
 By featuring no objectives, the player themselves decide the objectives. By doing so, they inherit control over the main character, and every consequence of the game puts the weight on the player. This adds to the immersion of a game because you don't just _understand_ the main character - you _are_ the main character.
 
@@ -97,7 +97,7 @@ The Janitor is one of the best horror antagonists I have had the opportunity of 
 
 I love the way the Janitor is introduced because he makes his appearances with progression as mentioned previously, going from a distant view, to a room avoidance, to proximity encounters and chases. It allows the player to slowly grow more and more uncomfortable with an antagonist over time rather than screaming at the first sight of a character. Then, once the player has reached a sufficient threshold of unsettling discomfort, the game can then reasonably [throw in subtle jump scares](https://youtu.be/YYMx7RU0Igc?t=3583) and [terrifying chase sequences](https://youtu.be/YYMx7RU0Igc?t=3608) such as the [one depicted below](https://youtu.be/YYMx7RU0Igc?t=2565):
 
-![Six running as the Janitor suddenly appears by opening a door](little-nightmares-janitor-chase.gif)
+![Six running as the Janitor suddenly appears by opening a door](/public/thoughts/little-nightmares-janitor-chase.gif)
 
 > He just appears out of nowhere from the ceiling. In the blink of an eye my anxiety went from 0 to 9000 and I almost cried.
 
@@ -115,7 +115,7 @@ Furthermore, the game uses lighting to emphasize anticipation and plot. In the c
 
 In some cases, the total absence of light adds terror because the player cannot see their surroundings. This is especially unsettling in cases where [the lights all turn off at once](https://youtu.be/YYMx7RU0Igc?t=1307), or [the player falls into a dark pit](https://youtu.be/YYMx7RU0Igc?t=394).
 
-![The main character pulling a switch down as all light in the room turns off](little-nightmares-switch.gif)
+![The main character pulling a switch down as all light in the room turns off](/public/thoughts/little-nightmares-switch.gif)
 
 This pattern of selective lighting enhances important areas while hiding others, effectively adding anticipation for events that may happen inside or outside of the light.
 
@@ -181,7 +181,7 @@ In addition, the utilization of depth in a 2D setting can be both a blessing and
 
 I haven't even mentioned the complicated hand coordination required to perform simple tasks such as jumping, climbing, and grabbing.
 
-![the button layout of a standard PS4 controller](little-nightmares-ps4.jpg)
+![the button layout of a standard PS4 controller](/public/thoughts/little-nightmares-ps4.jpg)
 
 I played the game using a PS4 controller and it seemed like basic motions were made more complicated than necessary. For example, to jump from a platform and grab onto a hanging object, you have to perform the following presses:
 
@@ -192,9 +192,9 @@ I played the game using a PS4 controller and it seemed like basic motions were m
 
 It's overly complicated. In some instances [I just fell off of platforms or walls for no reason](https://youtu.be/YYMx7RU0Igc?t=1073) other than poor button mapping. It also made it [harder to jump under pressure](https://youtu.be/YYMx7RU0Igc?t=3353). It seems that my sentiments are shared among other players as well.
 
-|                                                                                                   |                                                                                                                    |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ![A review of Little Nightmares complaining about hard mechanics](little-nightmares-review-2.png) | ![A review of Little Nightmares criticizing its indie nature of terrible controls](little-nightmares-review-3.png) |
+|                                                                                                                    |                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| ![A review of Little Nightmares complaining about hard mechanics](/public/thoughts/little-nightmares-review-2.png) | ![A review of Little Nightmares criticizing its indie nature of terrible controls](/public/thoughts/little-nightmares-review-3.png) |
 
 ## Themes
 
@@ -222,15 +222,15 @@ You're probably thinking that the above title has no place here in a video game 
 
 While hunger is a huge propelling force of the game, I believe that the underlying message of the game is appearance. The symbol of an eye is used quite frequently throughout the game on doors, objects, and even as [enemies](https://youtu.be/YYMx7RU0Igc?t=1421). Even the logo encompasses an eye.
 
-![The Little Nightmares logo depicting an eye with the main character drawn in the center as the pupil](little-nightmares-logo.jpg)
+![The Little Nightmares logo depicting an eye with the main character drawn in the center as the pupil](/public/thoughts/little-nightmares-logo.jpg)
 
 But why appearances? Because that is the culmination of the story. A geisha in traditional Japanese culture is intended to be a standard of Asian beauty, acting as a performer, speaker, and dancer. This is the leader, or overseer, of all the ship's inhabitants, because she is naturally the physical embodiment of perfection. Even within the game's world, she is the _only_ character to have a perfectly thin form. All of the other inhabitants are fat, ugly, and facially disfigured.
 
-![The main character climbing a wall in the foreground as the geisha stands over the large inhabitants in the background](little-nightmares-geisha-overseeing.gif)
+![The main character climbing a wall in the foreground as the geisha stands over the large inhabitants in the background](/public/thoughts/little-nightmares-geisha-overseeing.gif)
 
 Every encounter with the geisha demonstrates to the player her concern for her appearance. When we first enter the same room as her, she is looking in a mirror and combing her hair. Again, later, we see her manakins everywhere - an obvious symbol of beauty or appearance.
 
-![A dark room filled with manakins](little-nightmares-manakins.gif)
+![A dark room filled with manakins](/public/thoughts/little-nightmares-manakins.gif)
 
 To defeat her, you must use a mirror to reflect her own gaze. This is indicative of the ridiculousness of the Asian beauty standard - when carefully examining how unattainable and unreasonable the beauty standard is, we take a step back and reexamine ourselves.
 
@@ -250,4 +250,4 @@ I am completely aware that a [sequel](https://store.steampowered.com/app/860510/
 
 That's it! I hope you enjoyed reading this even if you didn't play the game. And with that, I'll close with a wonderful review another player made of Little Nightmares.
 
-![A review of Little Nightmares endorsing cannibalism](little-nightmares-review-1.jpg)
+![A review of Little Nightmares endorsing cannibalism](/public/thoughts/little-nightmares-review-1.jpg)

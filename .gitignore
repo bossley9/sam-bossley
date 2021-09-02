@@ -2,9 +2,4 @@
 node_modules/
 
 # build
-.next/
-out/
-.husky/
-
-# log
-yarn-error.log
+_site/

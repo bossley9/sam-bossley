@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Why Unix?
 desc: Here are my reasons as to why everyone should switch to Unix-based operating systems that follow the Unix Philosophy.
-date: 04/15/21 12:35
-lastUpdated: 04/15/21 12:35
+date: 2021-04-15 12:35:00
 tags:
   - suggestion
   - tech
@@ -48,27 +48,27 @@ First, I write my resume using a program called Vim. If you haven't read [my dra
 
 Until 2020, I used Google Docs to format and edit my resume. After switching to my current Vim, LaTeX, and Zathura workflow, my productivity and resume quality have both increased. Comparing the Google Docs resume to the new resume, it's nearly impossible to notice a difference in styling (they're obviously different in terms of contents, but who's looking?).
 
-![a side by side comparison of both of my resumes, with the Google docs resume on the left and the LaTeX compiled resume on the right. Both look nearly identical in terms of formatting](why-unix-resumes.png)
+![a side by side comparison of both of my resumes, with the Google docs resume on the left and the LaTeX compiled resume on the right. Both look nearly identical in terms of formatting](/public/thoughts/why-unix-resumes.png)
 
 If both resumes look nearly identical, why does it matter which workflow I follow? It matters because the second workflow is more extensible.
 
 I've already explained [why I believe Vim is a superior editor to Google Docs](/thoughts/vim-the-ubiquitous) so I'll begin with Zathura. Because I use an external PDF viewer, I can modify the display of any PDF I view. Zathura allows dark mode that merges with the background of the window. In this case, since my viewing window is transparent blurred, I can achieve a fantastic look:
 
-![a demonstration of me pressing a single key to change the background theme of the zathura pdf viewer from light to dark](why-unix-zathura-dark.gif)
+![a demonstration of me pressing a single key to change the background theme of the zathura pdf viewer from light to dark](/public/thoughts/why-unix-zathura-dark.gif)
 
 > At this point I'm just showing off my compositor and animating Breath of the Wild background. I know. It's hard being a Unix user because everything is customizable ¯\\\_(ツ)\_/¯
 
 And then there's LaTeX. LaTeX is extensible because of it's programming functionality. I am able to create command macros to uniformly format each section of my resume. This gives me the upper hand over Google Docs (where you are forced to format each section individually). As a demonstration, here is me changing the color of every instance of a subheading immediately.
 
-![a demonstration of me editing a single line in my LaTeX resume file to update the color of every instance of that text in the output pdf file](why-unix-zathura-color.gif)
+![a demonstration of me editing a single line in my LaTeX resume file to update the color of every instance of that text in the output pdf file](/public/thoughts/why-unix-zathura-color.gif)
 
 In addition, I can change the formatting of each resume entry uniformly as a whole:
 
-![a demonstration of me editing a single line in my LaTeX resume file to update the bullet point appearance of every bullet point in the output pdf file](why-unix-zathura-bullet-change.gif)
+![a demonstration of me editing a single line in my LaTeX resume file to update the bullet point appearance of every bullet point in the output pdf file](/public/thoughts/why-unix-zathura-bullet-change.gif)
 
 The point of this drawn out demonstration is that _each of these programs are modular units_. I can use Vim to edit any text file, not just my resume. I can use LaTeX to format any document (including powerpoints and flowcharts), not just text documents. Finally, I can use Zathura to display any document, not just my resume.
 
-![using zathura to display three pdf files in the same desktop screen side by side](why-unix-zathura-docs.png)
+![using zathura to display three pdf files in the same desktop screen side by side](/public/thoughts/why-unix-zathura-docs.png)
 
 With monoliths like Google Docs, you can only use them for single purposes. You can't break apart the components individually, much less repurpose them to work with other programs, which is a perfect segway into the Unix Philosophy's second tenet.
 
@@ -78,21 +78,21 @@ In Unix, programs should work together and be able to interact with each other. 
 
 [Fzf](https://github.com/junegunn/fzf) is a simple command prompt fuzzy finder. A _fuzzy finder_ is a program that when given text input, filters a list of values in real time to find the value you are typing. Most search engines or search bars are fuzzy finders, but not all fuzzy finders are search bars. A perfect example of this is MacOS's spotlight search.
 
-![someone using MacOS's spotlight search to filter results to launch a terminal application](why-unix-macos-spotlight.gif)
+![someone using MacOS's spotlight search to filter results to launch a terminal application](/public/thoughts/why-unix-macos-spotlight.gif)
 
 What makes a fuzzy finder different from a regular search bar is that it uses pattern matching, meaning it is case insensitive and fills in the blanks for misspelled or missing phrases. Fzf does all this through text streams, simply displaying inputs through a fuzzy finder interface and returning the chosen item. Because Fzf can take any input and return an output, it can be paired with _virtually any program_ to make a more pleasant searching experience. For example, I use Fzf as my own "spotlight search" to find and launch any program.
 
-![using my fzf launcher script to first open gimp image editor, then the spotify client](why-unix-fzf-launcher.gif)
+![using my fzf launcher script to first open gimp image editor, then the spotify client](/public/thoughts/why-unix-fzf-launcher.gif)
 
 I also use it to navigate the folders in my file system.
 
 I additionally use Fzf to search for files in my coding projects to quickly switch to new files without ever having to think about the location of the files I'm looking for.
 
-![using Fzf in Vim to open a script from another folder simply by typing in the name](why-unix-fzf-file-search.gif)
+![using Fzf in Vim to open a script from another folder simply by typing in the name](/public/thoughts/why-unix-fzf-file-search.gif)
 
 That's only half of Fzf's power. Because I can input any data stream into Fzf, I can even search _individual file contents_. This is truly a game-changer for development projects containing many text files or code modules.
 
-![using Fzf in Vim to open a file at a specific line number by typing in keywords](why-unix-fzf-ripgrep.png)
+![using Fzf in Vim to open a file at a specific line number by typing in keywords](/public/thoughts/why-unix-fzf-ripgrep.png)
 
 Modular programs are so powerful because they can be combined and connected to other programs to produce wonderful tools. If given the choice between a bin of Legos and a hotglued Lego set, which would you pick?
 
@@ -102,7 +102,7 @@ This is where most programs fall short. Text is the most accessible interface be
 
 A poor example of this is [NCKU's graduation application portal](http://140.116.165.83/~lou/leave/), where text is baked into an image. This is absolutely inaccessible by screenreaders because they cannot parse images. Additionally, if the image is scaled incorrectly like it is on the website, it can ruin the readability of the content.
 
-![button image reading 'get adobe' in stretched font baked into the image](why-unix-get-adobe.png)
+![button image reading 'get adobe' in stretched font baked into the image](/public/thoughts/why-unix-get-adobe.png)
 
 But it's not just displaying data that creates issues - it's the storage of data that also creates issues. Imagine that you create a powerpoint with Microsoft Powerpoint. If you were to try to access that powerpoint file 30 years from now, do you think you could do it?
 

@@ -1,0 +1,17 @@
+---
+layout: layouts/main
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - thoughts
+permalink: /tags/{{ tag | slugClean }}/
+---
+
+<section>
+  <h1>Tagged "{{ tag }}"</h1>
+  {% import "fragments/thoughtslist.njk" as thoughtsList %}
+  {{ thoughtsList.create(collections.thoughts | sortByDate | filterByTag(tag)) }}
+</section>

@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Underrated Artists
 desc: I give you all my niche artist recommendations for the different genres I listen to.
-date: 05/31/21 17:24
-lastUpdated: 05/31/21 17:24
+date: 2021-05-31 17:24:00
 tags:
   - suggestion
 ---

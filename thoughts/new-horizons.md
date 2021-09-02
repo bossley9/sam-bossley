@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: "Animal Crossing: New Horizons (2020)"
 desc: My opinions of the new Animal Crossing game, New Horizons
-date: 04/12/20 14:34
-lastUpdated: 05/23/20 23:51
-image: "/thoughts/new-horizons-fishing-tourney.jpg"
+date: 2020-04-12 14:34:00
+image: "/public/thoughts/new-horizons-fishing-tourney.jpg"
 tags:
   - video game
   - review
@@ -11,7 +11,7 @@ tags:
 
 Finally. The game of all games. The game more popular than Doom Eternal, comically. I think this image encompass the irony of New Horizons.
 
-!["Meme depicting how popular Animal Crossing: New Horizons is compared to Doom: Eternal"](/thoughts/new-horizons-doom-comparison.jpg)
+!["Meme depicting how popular Animal Crossing: New Horizons is compared to Doom: Eternal"](/public/thoughts/new-horizons-doom-comparison.jpg)
 
 Animal Crossing: New Horizons is so much different than any other serious game I've played. This is my first time playing a legitimate Animal Crossing game (not pocket camp), and it's a whole different atmosphere.
 
@@ -28,11 +28,11 @@ One potential downside is also how the game progresses. The game uses real-world
 
 Now, for a period-specific frustration. Since today is Easter, the past two weeks of gameplay have included a seasonal promotion to celebrate easter. They have added new items to craft using eggs you can catch occassionally from the sky, ground, and fishing. However, the items you can craft with the eggs are not visually appealing in the slightest, and the developers have seems to increase the egg spawn rates by 200%. Because of this, almost everything the player catches or finds is a worthless egg. This is not just a conviction held by me - in fact, a lot of people hold the same opinion of the easter event:
 
-![sea bass catch is actually just a egg](/thoughts/new-horizons-dio-egg.jpg)
+![sea bass catch is actually just a egg](/public/thoughts/new-horizons-dio-egg.jpg)
 
-![enough is enough when it comes to the easter eggs](/thoughts/new-horizons-enough-is-enough.jpg)
+![enough is enough when it comes to the easter eggs](/public/thoughts/new-horizons-enough-is-enough.jpg)
 
-![What if you wanted to get a decent score in the fishing tourney but God said egg](/thoughts/new-horizons-fishing-tourney.jpg)
+![What if you wanted to get a decent score in the fishing tourney but God said egg](/public/thoughts/new-horizons-fishing-tourney.jpg)
 
 It concerns me that this is the first major event I've participated in since I started playing, and everyone is frustrated with it.
 

@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Do Androids Dream of Electric Sheep? by Philip K. Dick (1968)
 desc: My thoughts on the book that inspired Blade Runner
-date: 01/10/19
-lastUpdated: 01/10/19
+date: 2019-01-10 00:00:00
 tags:
   - book
   - review
@@ -15,4 +15,3 @@ I personally found the ending dissatisfying. Throughout the novel, the center of
 I think the most insightful oment was when he connected with Luba Luft before she was killed. He realized that he did in fact feel empathy towards androids, and yet - after Rachel tricking him and then killing his goat, he still proceeds to kill the remaining 3 andys. I didn't understand why Rick's changw of heart in the middle of the novel was completely disregarded in the end. He also connected to Mercer, which I never understood and it bothered me. At the end of the novel, his wife becomes happy again and feels renewed love for him, but he feels guilt and regret.
 
 What does it mean to be human? More specifically, what does it mean to be alive? Empathy? And what was John Isadore's role in this novel?
-

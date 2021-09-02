@@ -1,0 +1,60 @@
+{% set css %}{% include "styles.css" %}{% endset %}
+
+{% set siteName %}Sam Bossley{% endset %}
+
+{% set pageTitle %}{{ title | title }}{{ " - " if title }}{{ siteName }}{%- endset %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{ pageTitle }}</title>
+    <meta name="og:title" content="{{ pageTitle }}" />
+    <meta name="twitter:title" content="{{ pageTitle }}" />
+
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    <meta property="og:site_name" content="{{ siteName }}" />
+    <meta name="twitter:site" content="{{ siteName }}" />
+
+    <meta name="author" content="Sam Bossley" />
+    <meta name="twitter:creator" content="Sam Bossley" />
+
+    {% if desc %}
+      <meta name="description" content="{{ desc }}" />
+      <meta name="og:description" content="{{ desc }}" />
+      <meta name="twitter:description" content="{{ desc }}" />
+    {% endif %}
+
+    {% if tags %}
+      <meta name="keywords" content="{{ tags | join(",") }}" />
+    {% endif %}
+
+    {% if image %}
+      <meta name="og:image" content="{{ image }}" />
+      <meta name="twitter:image" content="{{ image }}" />
+    {% endif %}
+
+    <meta name="og:url" content="{% getBaseUrl %}{{ page.url }}" />
+    <link rel="canonical" href="{% getBaseUrl %}{{ page.url }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+  </head>
+  <body>
+    {% include "fragments/header.njk" %}
+    {{ content | safe }}
+    {% include "fragments/footer.njk" %}
+  </body>
+</html>

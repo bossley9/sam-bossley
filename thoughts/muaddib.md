@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: "The Muad'Dib"
 desc: This review encompasses my thoughts after reading the famous scifi novel Dune by Frank Herbert. While it was not at all what I expected, There were a lot of beautiful pieces of the book I'd like to discuss before the movie adaptation releases.
-date: 01/19/21 12:01
-lastUpdated: 01/19/21 14:09
-image: '/thoughts/muaddib-cover.jpg'
+date: 2021-01-19 12:01:00
+image: "/public/thoughts/muaddib-cover.jpg"
 tags:
   - book
   - review
@@ -11,7 +11,7 @@ tags:
 
 If you recognize the title of this writing, I know you've read the novel Dune (1965) by Frank Herbert. As I've just completed the novel, I wanted to share a few thoughts about the book before the [movie adaptation releases to theaters](https://youtube.com/watch?v=n9xhJrPXop4) and hopefully use this review to make judgements on the adaptation and how faithfully it carried over the same ideas.
 
-![The book cover of Dune](/thoughts/muaddib-cover.jpg)
+![The book cover of Dune](/public/thoughts/muaddib-cover.jpg)
 
 Since I will be discussing topics that pertain to the plot and entire story of the first book in the series, I am dropping a spoiler alert here.
 
@@ -87,10 +87,10 @@ In every interaction, the fremen save water when available. They even withdraw t
 
 Even the lifestyle of the fremen revolves around water. The gear they wear constantly, the _stillsuits_, are bodily regulators which conserve and recycle the sweat the body produces. In addition, the all use face masks and sinus condensers to conserve and use as little moisture as possible.
 
-![Paul and Jessica on a sand dune with stillsuits and sinus condensers](/thoughts/muaddib-stillsuit-1.jpg)
+![Paul and Jessica on a sand dune with stillsuits and sinus condensers](/public/thoughts/muaddib-stillsuit-1.jpg)
 Paul (Timothee Chalamet) and Jessica (Rebecca Ferguson) from the new film adaptation. The film has not been released yet but I would speculate this takes place shortly after they have integrated into the fremen sietch led by Stilgar. A mask lies hanging around Jessica's neck.
 
-![Chani in full stillsuit garb](/thoughts/muaddib-stillsuit-2.jpg)
+![Chani in full stillsuit garb](/public/thoughts/muaddib-stillsuit-2.jpg)
 Chani, played by Zendaya. This is likely in one of the fremen caves. You can see the sinus condenser, stillsuit gear, and blue eyes resulting from the spice addiction.
 
 We can all learn a lesson from this. Think about how many things you take for granted and be thankful for the life you have.

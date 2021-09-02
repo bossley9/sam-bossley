@@ -1,11 +1,12 @@
 ---
+layout: layouts/thought
 title: "Star Trek: The Next Generation (1987-1994)"
-desc: "After watching Star Trek: The Next Generation in its entirety, I have to admit that
+desc:
+  "After watching Star Trek: The Next Generation in its entirety, I have to admit that
   this show is one of the most impactful shows I have ever seen. If you've never seen it or
   don't know what Star Trek is, I describe my thoughts of the show and why I hold it so highly."
-date: 06/30/20 21:28
-lastUpdated: 07/25/20 23:47
-image: "/thoughts/tng-enterprise-d.jpg"
+date: 2020-06-30 21:28:00
+image: "/public/thoughts/tng-enterprise-d.jpg"
 tags:
   - review
   - show
@@ -19,25 +20,25 @@ The original series of Star Trek (usually abbreviated TOS for "The Original Seri
 
 The original series of Star Trek takes place shortly after this and follows the iconic crew of Captain James T. Kirk aboard the iconic starship Enterprise, whose sole purpose is best explained by its motto:
 
-> "Space. The final frontier. These are the voyages of the starship Enterprise. Its (five year) continuing mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no (man) one has gone before." 
+> "Space. The final frontier. These are the voyages of the starship Enterprise. Its (five year) continuing mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no (man) one has gone before."
 
 > The edits in parentheses are actually part of the original title sequence, but were later adapted to be more inclusive and reflective of the series.
 
 Throughout this series, they engage in other lifeforms, discover new species, new technology, and also make enemies (namely, the Klingons).
 
-![the Enterprise starship from the original series](/thoughts/tng-original-enterprise.jpg)
+![the Enterprise starship from the original series](/public/thoughts/tng-original-enterprise.jpg)
 
 _No doubt you've seen an image of the iconic Enterprise somewhere in your life. I would be surprised if you haven't._
 
 Now that you have a more complete understanding of the premise of the original Star Trek, I'll try to briefly explain The Next Generation. Star Trek: The Next Generation (abbreviated TNG for "The Next Generation") takes place in, as you would assume, the "next generation", approximately the later 24th century of Earth. Since the previous century, Starfleet ships have undergone a number of new improvements and modifications. They are now have stronger warp capabilities, more powerful weapons, and a greater capacity, with over 1000 crew members and staff. In a similar fashion, the United Federation of Planets has even made alliances with some unlikely allies (namely, the Klingons), but have also created new enemies (The Borg, the Cardassians, and the Romulans).
 
-![the Enterprise-D starship](/thoughts/tng-enterprise-d.jpg)
+![the Enterprise-D starship](/public/thoughts/tng-enterprise-d.jpg)
 
 _Doesn't the Enterprise-D look way cooler than the original Enterprise?_
 
 The Next Generation follows the crew of Captain Jean-Luc Picard aboard the starship Enterprise-D, and, like the original series, maintain exploration as a priority. Since the duration of the show is too vast to encompass in a small review, I think it would be best to first describe the core characters of the show, then delve into themes and concepts that make up the show.
 
-![picture of the core Enterprise D crew](/thoughts/tng-cast.jpg)
+![picture of the core Enterprise D crew](/public/thoughts/tng-cast.jpg)
 
 The captain Jean-Luc Picard, pictured on the very right, is played by none other than Patrick Stewart. He is, as the show describes, visibly a "private" man. He can be very intimidating, bold, and mysterious at times, and he does not often reveal his personal life to the other crew members, nor show any signs of weakness. But in addition to these attributes, he is very caring for those around him, and an exceptional captain, willing to risk his life for the ship and its crew.
 
@@ -67,17 +68,17 @@ The atmosphere is one of the best attributes of The Next Generation, and what ma
 
 But while the setting, atmosphere and characters of the show are all very enjoyable, the exploration of themes, social justice, and moral ambiguity is the core reason I've come to love The Next Generation. Being set in the future, the show is able to explore concepts and morally amgbiguous actions that we may not be able to conceptualize. For example, one of the best episodes of season two is _The Measure of a Man_, in which a Starfleet robotics scientist attempts to dismantle Data to study and replicate him. After Data's refusal to cooperate (or, rather, his desire not to be dismantled), the Starfleet scientist makes a bold claim that Data is not a sentient being since he is an android. This serious of events eventually leads to a hearing, in which [the captain explains the essence of sentience](https://www.youtube.com/watch?v=vjuQRCG_sUw). This is a profound moment, because it is a question that humanity will eventually have to ask ourselves in the near future with our evolving technology - what makes a being sentient? Where do you draw the line between a piece of technology and a functional sentient being? And that's what The Next Generation does. It questions the most reasonable, or logical, questions that humanity may face in the future. These questions are not irrational or impossible - in fact, mrgabest puts it very well:
 
-> One of the strengths of TNG was that it never felt the need to reduce its antagonists to caricatures.  Maddux provides opposition for Data and Picard without ever ceasing to act like a reasonable, enlightened citizen of their utopian society.  He presents a nuanced, if flawed, argument for disassembling Data, and accepts the court's judgement against him with aplomb - perhaps even reconsidering his position.
+> One of the strengths of TNG was that it never felt the need to reduce its antagonists to caricatures. Maddux provides opposition for Data and Picard without ever ceasing to act like a reasonable, enlightened citizen of their utopian society. He presents a nuanced, if flawed, argument for disassembling Data, and accepts the court's judgement against him with aplomb - perhaps even reconsidering his position.
 
 > It's wonder to see science fiction stories that revolve around interpersonal conflict that isn't murderous or even antagonistic.
 
-From my personal exploration of computer science as a major, I have found one of the most interesting topics is the ethics of technology, and TNG explores many of these topics. One of these such topics is the morality of virtual fantasies - is it morally acceptable to use people from the real world as instruments to your moral fantasties? In season three's _Hollow Pursuits_, [Barclay takes people from the ship and turns them into personas in his fantasy worlds in the holodeck](https://www.youtube.com/watch?v=iyI542boYs0). This episode may play along innocence, but the question remains. [Again, this also occurs with Geordi La Forge and Dr. Leah Brahms](https://www.youtube.com/watch?v=8z31gO1YcNQ). Is it morally acceptable for your friend to virtually kill you in a virtual world without your consent? Or, if is morally acceptable for an acquaintance of yours to virtually have sex with your image in a virtual world without your consent? 
+From my personal exploration of computer science as a major, I have found one of the most interesting topics is the ethics of technology, and TNG explores many of these topics. One of these such topics is the morality of virtual fantasies - is it morally acceptable to use people from the real world as instruments to your moral fantasties? In season three's _Hollow Pursuits_, [Barclay takes people from the ship and turns them into personas in his fantasy worlds in the holodeck](https://www.youtube.com/watch?v=iyI542boYs0). This episode may play along innocence, but the question remains. [Again, this also occurs with Geordi La Forge and Dr. Leah Brahms](https://www.youtube.com/watch?v=8z31gO1YcNQ). Is it morally acceptable for your friend to virtually kill you in a virtual world without your consent? Or, if is morally acceptable for an acquaintance of yours to virtually have sex with your image in a virtual world without your consent?
 
 Anoth example of such a topic is the addiction to technology, either through gaming, social media, or porn. In season five's _the game_, Wesley discover that the entire crew of the Enterprise [has come under the control of a pleasure-filling game](https://www.youtube.com/watch?v=ilIhdTG_UmQ). The game almost causes a complete destruction of the entire Enterprise, and questions the addictive quality of our technology.
 
 With our present day technology, we are unable to replicate such ideas, but the answers we draw from these questions will inevitably change how we interact with one another in the future.
 
-But it's not only computer ethics The Next Generation explores, but also social justice, such as the women's rights, eugenics, slavery, animal killing, and gender identity. One of my favorite episodes is _The Outcast_, in which an agender species, the J'naii, attempts to "cleanse" their race of emerging gender identities. In the episode, Soren, one of the J'naii, falls in love with commander Riker, and [admits that she is female, but cannot ever express herself since her race prohibits such expression](https://www.youtube.com/watch?v=r7I_W3xWi2Q). They inevitably [discover her "illness" and attempt to try her in court](https://www.youtube.com/watch?v=mMqGlSjAbwA). Riker attempts to abduct Soren to keep her from being brainwashed at the end of the episode, but after taking her, he realizes that she has already been brainwashed and she now feels "well". This is one of the most heartwrenching episodes because it is a direct allusion to the struggles of the LGBT+ community, and brings to light the injust rules and treatment of non-binary gender identities in our system. 
+But it's not only computer ethics The Next Generation explores, but also social justice, such as the women's rights, eugenics, slavery, animal killing, and gender identity. One of my favorite episodes is _The Outcast_, in which an agender species, the J'naii, attempts to "cleanse" their race of emerging gender identities. In the episode, Soren, one of the J'naii, falls in love with commander Riker, and [admits that she is female, but cannot ever express herself since her race prohibits such expression](https://www.youtube.com/watch?v=r7I_W3xWi2Q). They inevitably [discover her "illness" and attempt to try her in court](https://www.youtube.com/watch?v=mMqGlSjAbwA). Riker attempts to abduct Soren to keep her from being brainwashed at the end of the episode, but after taking her, he realizes that she has already been brainwashed and she now feels "well". This is one of the most heartwrenching episodes because it is a direct allusion to the struggles of the LGBT+ community, and brings to light the injust rules and treatment of non-binary gender identities in our system.
 
 Star Trek also contains some of the best monologues ever written on social issues and human-created concepts. For example, [Picard's monologue on censorship and freedom](https://youtu.be/smdqe2eluEI?t=45) is a scary realization of the terrors and fear of censorship. Another prime example is [Picard's torture scene](https://www.youtube.com/watch?v=2X-2d4COiKs). In this scene, Picard has been terribly tortured over and over again by the Cardassian, and reflecting on his trials, he delivers a blow more powerful than he could have imagined to his captor. Some of the most powerful truths in this show are uncovered through dialogue, and I love that aspect of The Next Generation.
 
@@ -89,13 +90,13 @@ There's a lot of smaller details I failed to mention that make the show larger t
 
 One such detail is the aesthetic of the computer's console graphics. I think the colors are very pleasing to the eyes, and I look forward to a future with uniform panels using these kinds of color schemes.
 
-![lcars subspace emission scan](/thoughts/tng-lcars-colors.gif)
+![lcars subspace emission scan](/public/thoughts/tng-lcars-colors.gif)
 
-![lcars system access](/thoughts/tng-lcars-colors2.gif)
+![lcars system access](/public/thoughts/tng-lcars-colors2.gif)
 
 The colors are light shades that contrast nicely with the dark backgrounds. In addition, the simple color theme of the uniforms is an added bonus.
 
-![a blue, yellow, and red uniform](/thoughts/tng-uniforms.jpg)
+![a blue, yellow, and red uniform](/public/thoughts/tng-uniforms.jpg)
 
 Another aspect of the show I appreciate is the awkward humor. As a zoomer analyzing a show from the nineties, I think a lot of the cheesy effects or humorous moments are funnier than they were originally intended, and part of experiencing the show is experiencing the humor. I really enjoy Star Trek [out of context compilations](https://www.youtube.com/watch?v=kRXry95Q6e0). John De Lancie's performance of Q is phenomenal and hilarious in nearly every scene, including his[celebration](https://www.youtube.com/watch?v=kl2nJQrpksc) and the [red alert](https://www.youtube.com/watch?v=T-hqbgEz05o) entrance. Any time Riker [destroys a person in conversation](https://www.youtube.com/watch?v=FDJTG12NTg4) is amazing, and [Data does a great job as well](https://www.youtube.com/watch?v=hLyszVGMZ_o).
 

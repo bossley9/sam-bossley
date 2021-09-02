@@ -1,0 +1,35 @@
+---
+  permalink: feed.xml
+  eleventyExcludeFromCollections: true
+  metadata:
+    title: Sam Bossley
+    subtitle: Thoughts of Sam Bossley
+    author:
+      name: Sam Bossley
+      email: bossley.samuel@gmail.com
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{% getBaseUrl %}/feed.xml" rel="self"/>
+  <link href="{% getBaseUrl %}/"/>
+  <updated>{{ collections.thoughts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{% getBaseUrl %}/</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for thought in collections.thoughts %}
+    {% set absoluteThoughtUrl %}{{ thought.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <entry>
+      <title>{{ thought.data.title }}</title>
+      <link href="{{ absoluteThoughtUrl }}"/>
+      <updated>{{ thought.date | dateToRfc3339 }}</updated>
+      <id>{{ absoluteThoughtUrl }}</id>
+      <content type="html">
+        {{ thought.templateContent | htmlToAbsoluteUrls(absoluteThoughtUrl) }}
+      </content>
+    </entry>
+  {%- endfor %}
+</feed>

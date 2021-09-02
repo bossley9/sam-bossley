@@ -1,13 +1,13 @@
 ---
-title: 'Trials and Tribulations with OpenBSD (Part 2)'
+layout: layouts/thought
+title: "Trials and Tribulations with OpenBSD (Part 2)"
 desc: As I trudged through working with and setting up the various BSDs, I wanted to document my findings and why I will continue using OpenBSD in the future.
-date: 02/07/21 17:52
-lastUpdated: 02/07/21 17:52
+date: 2021-02-07 17:52:00
 tags:
   - tech
 ---
 
-In [my previous deep dive into the OpenBSD operating system](/thoughts/trials-and-tribulations-with-bsd) I talked a lot about the various benefits and drawbacks of using that operating system as a daily driver. Now that the new academic semester has been in session for several weeks, I've been using OpenBSD more regularly for schoolwork and have a more well-rounded view of the experience that is OpenBSD. While my last article formally introduced positives and negatives in an orderly fashion (denoted by section), I will use this article to simply describe my experiences and discoveries with specific software or libraries in no particular order. This will follow a more "narrative" format describing my experiences and whether I still believe OpenBSD is "worth it" as an operating system.
+In [my previous deep dive into the OpenBSD operating system](/public/thoughts/trials-and-tribulations-with-bsd) I talked a lot about the various benefits and drawbacks of using that operating system as a daily driver. Now that the new academic semester has been in session for several weeks, I've been using OpenBSD more regularly for schoolwork and have a more well-rounded view of the experience that is OpenBSD. While my last article formally introduced positives and negatives in an orderly fashion (denoted by section), I will use this article to simply describe my experiences and discoveries with specific software or libraries in no particular order. This will follow a more "narrative" format describing my experiences and whether I still believe OpenBSD is "worth it" as an operating system.
 
 I will be discussing various technical topics pertaining to the system itself. If you're new to Unix systems, you may want to avert your eyes and skip straight to the conclusion. And with that, I'll jump right into the details.
 
@@ -35,7 +35,7 @@ I first looked into preventing core dump files via the sysctl kernel parameter `
 
 After a bit more head scratching and failed solution attempts, my intuition told me that the best way to prevent core dumps would be to limit the maximum size of the core dump files to 0 bytes. If the maximum dump file size is 0 bytes, the dump will not be created.
 
-![LeVar Burton thinking](/thoughts/trials-trib-2-think.jpg)
+![LeVar Burton thinking](/public/thoughts/trials-trib-2-think.jpg)
 
 Acting on my theory, I tried using ksh's `ulimit` property to set the core dump file size to 0 ([the "b" in "bash" stands for "bloat" - I know, I'm a ksh fanboy](https://en.wikipedia.org/wiki/KornShell)):
 
@@ -66,7 +66,7 @@ The key in this default configuration is that the `coredumpsize` parameter is se
 
 ## Dbus
 
-I'm personally not a huge fan of notification-based or system-wide messaging systems such as [Dbus](https://en.wikipedia.org/wiki/D-Bus) because they induce [overstimulation](/thoughts/rss-comprehensive-overstimulation.pdf) and waste CPU cycles. I can understand the reasons why someone would want to use Dbus; however, I do not like to be bothered and waste CPU power so I usually disable it on every system I use (except Windows, which uses a messaging system that can never be turned off...).
+I'm personally not a huge fan of notification-based or system-wide messaging systems such as [Dbus](https://en.wikipedia.org/wiki/D-Bus) because they induce [overstimulation](/public/thoughts/rss-comprehensive-overstimulation.pdf) and waste CPU cycles. I can understand the reasons why someone would want to use Dbus; however, I do not like to be bothered and waste CPU power so I usually disable it on every system I use (except Windows, which uses a messaging system that can never be turned off...).
 
 Dbus on OpenBSD cannot be accessed normally with "dbus" or "dbus-daemon" as on most Unix systems. Instead, it uses OpenBSD's "messagebus" init service to propogate its notification system according to its manual page:
 
@@ -175,7 +175,7 @@ If you happen to also use OpenBSD and know what flags successfully compile Biber
 
 Due to the past four or five years of location and data sharing with Google (which I have long since abandoned for obvious privacy reasons), I have received a multitude Google Play rewards which I have applied to purchasing various movies on Youtube. I noticed that while I can watch various media and any Youtube video in browser, I seem to be unable to specifically watch Youtube movies in OpenBSD as a result of my browser being "unable to play the video".
 
-![Youtube complaining about being unable to play a video](/thoughts/trials-trib-2-unable-to-play.jpg)
+![Youtube complaining about being unable to play a video](/public/thoughts/trials-trib-2-unable-to-play.jpg)
 
 Funnily enough, clicking the "Learn more" hyperlink redirects me to a webpage that states "You have an up to date browser!" and nothing more. Very helpful, Google.
 

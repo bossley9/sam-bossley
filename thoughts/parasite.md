@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: Parasite (2019)
 desc: My thoughts on the movie Parasite
-date: 11/27/19 16:16
-lastUpdated: 07/16/20 19:05
-image: "/thoughts/parasite-eyes.jpg"
+date: 2019-11-27 16:16:00
+image: "/public/thoughts/parasite-eyes.jpg"
 tags:
   - review
   - movie
@@ -56,7 +56,7 @@ Parasite demonstrates that there are no such things as secrets and that hidden t
 
 This movie is built around the concept of staying relevant, or "afloat". Each family struggles to stay on top of their own problems, and each struggle revolves around lying, cheating, and pushing others down. Even the rain and flooding scene is a symbolic moment of staying "afloat" on the higher ground.
 
-![Obiwan Kenobi stating his views on the high ground](/thoughts/parasite-high-ground.jpg)
+![Obiwan Kenobi stating his views on the high ground](/public/thoughts/parasite-high-ground.jpg)
 
 Another reoccuring theme of the movie is the architecture of the physical house and its designer.In one scene or another, each family mentions the genius of the architect in his house design, wondering what the architect had in mind. I think this is a stronger emphasis on the gap of social classes. The house is visibly separated into vertical parts, with the upper floors being the Park's bedrooms, the mid ground being the floor where the Kims hide under the table, and the bunker in the basement, where Moon-gwang and her husband remain locked away. It's a visual symbolism that demonstrates the class divide in a physical form, and I believe each character's comments on the architecture reflect our modern view of class heirarchy. We accept the class structure at face value, ignoring the harsher realities entailing class struggle and fighting to survive.
 
@@ -64,13 +64,13 @@ The scholar's rock also plays an important role in the story. Kevin attributes b
 
 Now I'll talk about specific aspects of the movie that make this movie fantastic.
 
-First and foremost, this movie is intended to be a comedy (or, [according to Wikipedia, a "black comedy thriller"](https://en.wikipedia.org/wiki/Parasite_(2019_film)), and it shows in various scenes. It's heavily built around irony, and it's genuinely funny. For example, [when Ki-woo states that Min will not visit them, which he proceeds to do immediately after](https://youtu.be/vFmVsqDt4DY?t=43). When Ki-jung forges papers and the janitor tells Ki-jung to stop smoking, Ki-woo agrees and instead picks up a paper cup for her to put her cigarette ash into. This movie also focuses very heavily on dramatic irony, in which the viewer (or a character) knows something about the story that another character does not. This is clear in the tiberculosis scene in which Mr. Kim rehearses to pretend that Moon-gwang is unfit to serve. This is even demonstrated in the basement scene, in which we know that Moon-gwang is dying, but the rest of the family (except possibly Mr. Kim) is oblivious. And it's funny. Watching all the characters scramble over each other to grab the phone is hilarious, and watching each of the Kims attempt to play their role is comical. Parasite does a more than excellent job adding humor to its heavy themes.
+First and foremost, this movie is intended to be a comedy (or, [according to Wikipedia, a "black comedy thriller"](<https://en.wikipedia.org/wiki/Parasite_(2019_film)>), and it shows in various scenes. It's heavily built around irony, and it's genuinely funny. For example, [when Ki-woo states that Min will not visit them, which he proceeds to do immediately after](https://youtu.be/vFmVsqDt4DY?t=43). When Ki-jung forges papers and the janitor tells Ki-jung to stop smoking, Ki-woo agrees and instead picks up a paper cup for her to put her cigarette ash into. This movie also focuses very heavily on dramatic irony, in which the viewer (or a character) knows something about the story that another character does not. This is clear in the tiberculosis scene in which Mr. Kim rehearses to pretend that Moon-gwang is unfit to serve. This is even demonstrated in the basement scene, in which we know that Moon-gwang is dying, but the rest of the family (except possibly Mr. Kim) is oblivious. And it's funny. Watching all the characters scramble over each other to grab the phone is hilarious, and watching each of the Kims attempt to play their role is comical. Parasite does a more than excellent job adding humor to its heavy themes.
 
 One aspect of movies that tends to be forgotten is the soundtrack. Parasite's soundtrack has some of the most beautiful undertones and makes each scene more real. [Conciliation](https://www.youtube.com/watch?v=0yaKEqS9xZ4), which is played throughout the first half of the movie, alludes to sneaky or hidden motives of the Kims infiltrating the Parks. It pauses for brief and plays low and high choppy undertones to symbolize the hesitant nature of the infiltration. At the moment of plot changing reveals, or a significant role is introduced into the story, [Plum Juice](https://www.youtube.com/watch?v=i5qM_xvhGs0) plays. It comprises of a pleasant and innocent melody with eerie bass plucks and echos, alluding to "plot thickening". But what makes this soundtrack amazing is that it adjusts to fit the mood of the story. When anticipation or tension builds, so does the music. When the tension is relieved, the music fades. Comedic scenes use jovial music, and darker scenes use deeper bass-filled music. Even during the flooding scene, we hear [Water, Once Again](https://www.youtube.com/watch?v=bHk03f6zaSw), whose melody slowly increases in pitch and volume, reflective of the rising water and rising stakes. Even the title alludes to a conceptual water, where it is not referring to physical water, but rather, the rising stakes of each family's situation. The soundtrack of this movie not only fits the movie, it adapts to the scenes and intensity, making it particularly effective as a soundtrack for Parasite.
 
 I also want to elaborate the physical cover of the movie.
 
-![Parasite movie cover](/thoughts/parasite-movie-cover.jpg)
+![Parasite movie cover](/public/thoughts/parasite-movie-cover.jpg)
 
 The placement of items on the cover gives an idea as to the roles each character plays, as well as their intentions. Specifically in Korea and in other various countries, bars are usually displayed over a person's eyes to anonymize a criminal suspect. Similarly, covering your eyes hides your intentions and adds ambiguity to your words. The cover depicts all characters with a bar over their eyes, to indicate that each and every one of them are guilty for some crime - whether that be lying, cheating, or killing. It also makes a distinction to separate the Parks and the Kims using white and black labels respectively, demonstrating that everyone shares in crime, albeit different crimes and different motives, regardless of social status.
 
@@ -90,7 +90,7 @@ I especially love the choice of music behind his monologue. In the official soun
 
 It's important to note that [in this specific moment of realization and expression, Mr. Kim covers his eyes with his arm](https://youtu.be/yUJgT2piBRg?t=65). This is identical to the eye-covering as shown on the movie cover, and I don't think it's a coincidence Bong Joon Ho chose to have Mr. Kim make this powerful motion. Similar to the movie cover, he chose to make Mr. Kim make this motion to demonstrate Mr. Kim's fall into darkness to protect his family. I believe that at this moment, Mr. Kim becomes a criminal and loses a part of his humanity to protect his lineage.
 
-![Parasite movie cover eyes](/thoughts/parasite-eyes.jpg)
+![Parasite movie cover eyes](/public/thoughts/parasite-eyes.jpg)
 
 To me, this is the sub-climax of the movie because it shows the complete shift of the character of Mr. Kim, initially dedicated to methodic and principled actions, which turn into a loss of humanity to survive. Rewatching this movie with the knowledge of the movie's denoument, it gives me chills to watch Mr. Kim cover his eyes while the camera slowly zooms. This subtle two-minute scene encompasses the turning point in Mr. Kim's downward spiral which inevitably and permanently contributes to the climax of the overall story.
 

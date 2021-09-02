@@ -1,14 +1,14 @@
 ---
-title: 'Nier: Automata (2017)'
-desc: 'After waiting such a long time to write my review on Nier: Automata, I have finally gathered my thoughts in the hopes that this review will be a final send off for the game - where I can encompass all my ideas, praises, and criticisms of the game.'
-date: 10/31/20 21:38
-lastUpdated: 10/31/20 21:38
+layout: layouts/thought
+title: "Nier: Automata (2017)"
+desc: "After waiting such a long time to write my review on Nier: Automata, I have finally gathered my thoughts in the hopes that this review will be a final send off for the game - where I can encompass all my ideas, praises, and criticisms of the game."
+date: 2020-10-31 21:38:00
 tags:
   - review
   - video game
 ---
 
-![Nier Automata game cover art](/thoughts/nier-automata-cover.jpg)
+![Nier Automata game cover art](/public/thoughts/nier-automata-cover.jpg)
 
 _Nier: Automata_ is easily one of the most unique video games I've ever played. Combined with its fantastic story-writing, beautiful user interfaces, and satisfying game mechanics, this game holds itself to high standards and shatters those standards.
 
@@ -28,11 +28,11 @@ _Nier: Automata_ takes place in a post-apocalyptic world thousands of years in t
 
 You begin the game as 2B, a battle android accompanied by a [robot pod](https://nierautomata.wiki.fextralife.com/Pods) as part of the [YoRHa android force](https://youtu.be/ob0ksWZXOFs?t=2381). Tasked with destroying a goliath-class robot, you begin the game [as an arcade-shooter style flight-unit battle](https://youtu.be/ZIrIevgAvs8?t=54), eventually transitioning to a third-person rpg emphasizing [2B's first real appearance](https://youtu.be/ZIrIevgAvs8?t=343).
 
-![2B model](/thoughts/nier-automata-2b.jpg)
+![2B model](/public/thoughts/nier-automata-2b.jpg)
 
 Along the way, the companions in your squadron are eliminated, and [you meet 9S, a scanner unit assigned to assist you in taking down the goliath](https://youtu.be/ZIrIevgAvs8?t=504). While 2B's personality is very cold and reserved, 9S's personality is much more jovial and friendly.
 
-![9S model](/thoughts/nier-automata-9s.jpg)
+![9S model](/public/thoughts/nier-automata-9s.jpg)
 
 The fight against the goliath becomes a battle that both 2B and 9S know they cannot win, so they upload their memories to the Bunker (a space station of YoRHa's operating headquarters) and self-destruct. After reconnecting and adjusting to new bodies in the Bunker, the YoRHa commander orders both of them to [head back to the Earth to assist the resistance group](https://youtu.be/ob0ksWZXOFs?t=2825) on the surface - the [first in-game appearance of Earth's surface](https://youtu.be/gwqLStG_KF8?t=182).
 
@@ -70,7 +70,7 @@ The game begins as [an arcade shooter](https://youtu.be/XwXQwn-5Iss?t=186), then
 
 The way in which the player levels up their character is very well executed. Because all main characters (not including the [robot scene](https://youtu.be/nbuTbm1ZpFM?t=84) and [brief glimpses of Pascal](https://youtu.be/U50t1NQTxBA?t=222)) are androids, the player upgrades their abilities through plug-in chips. Each chip applies a different status effect (e.g. increased attack or range up) with an associated cost. As with hardware in real life, there are hard limits - in this case, a maximum number of chip slots available. Because of this limit, it forces players to adapt and carefully select which abilities are most important to enable for their playstyle and which plug-ins are not essential. Here's what makes plug-in chip selection so interesting - you can even remove HUD and gameplay chips to make space for other abilities. For example, you can remove the mini-map chip to make room for an attack up chip, or remove the HP gauge, or even the OS chip (and if you actually remove this, you will die and unlock a secret ending). This mechanic subconsciously forces players to adapt in different situations, such as increasing defense in boss fights, or increasing melee attack in arenas.
 
-![an example set of plug-in chips](/thoughts/nier-automata-plug-in-chips.webp)
+![an example set of plug-in chips](/public/thoughts/nier-automata-plug-in-chips.webp)
 
 > My only criticism of the plug-in chip system is that you lose all equipped chips on death, and have to retrieve them from your old body to re-equip them - which can be quite tedious.
 
@@ -78,7 +78,7 @@ When I play games, I tend to never use items - largely because I feel very conse
 
 They do, however, give unique key items - usually skins or costumes for the player and pod - but I found these to be somewhat lacking. The didn't give a variety of different choices (except some creepy headgear and hair colors) - but this is just a subjective complaint. All in all, the item and upgrade systems work very well together and really add to the focus of the game, which is uniqueness.
 
-![the alien head costume on 9S](/thoughts/nier-automata-alien-head.jpg)
+![the alien head costume on 9S](/public/thoughts/nier-automata-alien-head.jpg)
 
 I also want to talk about the main combat itself. The first time I played the game, I had a lot of trouble adjusting to the unique controls of the game. It was hard to differentiate the different melee controls from the pod's controls, and character movement was "bouncier" (i.e. lighter) than any third person game I've ever played; however, once I learned the mechanics and nailed the combat, it almost became too easy to play the game. _Nier: Automata_ is very generous in giving the character ample amounts of time to dodge and counter attacks, and after having played games with much more precise dodging mechanics ([Dark Souls](https://en.wikipedia.org/wiki/Dark_Souls)), or games with much lower invincibility frames ([Smash Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate)), it became relatively easy to attack enemies without taking very much damage. As I mentioned previously, I never felt the need to use items, albeit the occassional restorative item.
 
@@ -96,15 +96,15 @@ I additionally think they should have expanded the individual areas of the game.
 
 [As soon as I saw the heart cavity in the center of the amusement park castle](https://youtu.be/vX0fKTAToHc?t=174), I immediately thought, _"I want to go there"_. But the game taunts the player with the beautiful castle building and distant ferris wheel, because these aforementioned area are non-playable. I think it's a shame they didn't necessarily incorporate these defining landmarks into playable area in the game. The castle heart cavity is the defining landmark of the area, and it seems unfitting that the landmark most iconic to the area is not explorable by the player.
 
-![the abandoned amusement park](/thoughts/nier-automata-amusement-park.jpg)
+![the abandoned amusement park](/public/thoughts/nier-automata-amusement-park.jpg)
 
 In the same manner, the flooded city was a plethora of missed opportunities regarding expansion and level detail. The first time I saw the [flooded city cutscene](https://youtu.be/NxrJrDuXtjI?t=159) with the missiles in the distance, I was immediately transfixed by the [sheer magnitude of the missiles](https://youtu.be/NxrJrDuXtjI?t=230) and the beautiful scenery surrounding the buildings of the city. I wanted to climb the buildings and walk on the missiles. But the explorable area of the flooded city is, in reality, quite linear - along an eroded highway, two or three sunken buildings, and a final dog-eared road adjacent to the missiles. To me, it felt like [Lost Izalith in Dark Souls - an intentionally unfinished area due to budget constraints](https://www.reddit.com/r/darksouls/comments/1v1ewr/was_lost_izalith_the_last_area_they_created/). The cutscene of the flooded coast did not do the area justice, and compared to larger areas such as the abandoned factory - massive in area - the flooded city is disheartening.
 
-![the flooded city](/thoughts/nier-automata-flooded-city.jpg)
+![the flooded city](/public/thoughts/nier-automata-flooded-city.jpg)
 
 Another critism I have pertains to the game's employment of transportation. Throughout the majority of the first playthrough, the developers chose not to employ teleportation between access points. This meant that any transportation between areas had to be done on foot - and considering the scale of the world, it was tedious. While this complaint is insignificant in the larger scope of the game, what makes this issue stand out to me is that at every access point, it provided a menu option to teleport, but it was disabled. This frustrated me in my first playthrough, not knowing what I need to do to unlock teleportation - completing a certain quest, obtaining a certain item, or even completing the entire game. I went out of my way just to look up how to unlock the teleportation between access points. I think the developers could have made this game mechanic better by hiding the teleportation option completely until it becomes unlocked in the game - adding an additional unexpected feature to a game has a better impact than adding a solely requested feature that was promised. Something as simple as hiding the teleport option until unlocked could have changed my attitude from a desparate relief to a feature appraisal.
 
-![the access point menu options](/thoughts/nier-automata-teleport.png)
+![the access point menu options](/public/thoughts/nier-automata-teleport.png)
 
 I think a great example of this is the topic of [Waluigi and Steve in Smash Ultimate](https://www.fanbyte.com/features/why-waluigi-will-never-ever-be-playable-in-super-smash-bros). Waluigi is probably the most anticipated character in the new Smash Ultimate DLC, but he has yet to be added to the game. Even with the full release of the first pack of DLC characters at the end of 2020, he was not even mentioned by Sakurai, the director - and instead replaced with less popular characters such as [Terry](https://en.wikipedia.org/wiki/Terry_Bogard) and [Min Min](https://arms.fandom.com/wiki/Min_Min). For fans such as myself, it is doubtful that Waluigi will be added in the game at all - and even if he is intended to be added in the upcoming 2021 character releases, the audience reaction will be one of desparate relief (_"finally..."_) rather than one of appraisal (_"yes!"_).<br />
 On the other hand, Steve from Minecraft, who was announced very early in october, was completely unexpected by all fans - and yet, because it was an [unexpected surprise](https://youtu.be/ca-e5MrVbVU), [fans were ecstatic for his release in the game](https://youtu.be/ehlIiKccEMI).<br />
@@ -140,11 +140,11 @@ Why is it that [most of the members of YoRHa are female](https://youtu.be/XwXQwn
 
 Why is it that of all the appearances the sentient robots Adam and Eve could take, they chose to inherit two generic Japanese anime male bodies?
 
-![Adam and Eve](/thoughts/nier-automata-adam-and-eve.jpg)
+![Adam and Eve](/public/thoughts/nier-automata-adam-and-eve.jpg)
 
 I also think 2B and A2 were sexualized a bit much for my liking - and _Nier: Automata_ even admits this about 2B in the second playthrough (ending "B"):
 
-![a part of dialogue in the second playthrough which reads: "You're thinking about how much you want to (blank) 2B, aren't you?"](/thoughts/nier-automata-2b-sex.png)
+![a part of dialogue in the second playthrough which reads: "You're thinking about how much you want to (blank) 2B, aren't you?"](/public/thoughts/nier-automata-2b-sex.png)
 
 > I would like to add a disclaimer here - I think it's important to recognize that most modern games tend to sexualize the female characters - not just _Nier: Automata_. I have never once seen an "ugly" female in a game, but it's easy to find "ugly" males in most games. This is likely because the target demographic of most video games is teenage males, and video game companies know this - but I digress.
 
@@ -152,13 +152,13 @@ I also think 2B and A2 were sexualized a bit much for my liking - and _Nier: Aut
 
 _Nier: Automata_ is a sequel to the original [_Nier_](https://en.wikipedia.org/wiki/Nier_%28video_game%29) released in 2010, but the timelines are so vastly separated that a newcomer to the Nier universe (such as myself) had no problem learning about the new world of machines and androids. However, it is only natural that they include references to the past. The game hides references to the original story in notes, intel, and even characters such as [Emil](<https://nier.fandom.com/wiki/Emil_(Character)>), Devola, and Popola. Emil is an especially prominent character from the original game, and they even use the same elements as the original game (themes, music, and character designs) - and [his backstory and origins](https://youtu.be/msLR0grCKpw?t=62) are referenced heavily in [a secret bossfight](https://youtu.be/msLR0grCKpw?t=62), where _even a [remix of his sacrifice song](https://youtu.be/QzMFg3SfXZA) from the [original game](https://youtu.be/EDhPsYeK-jU) plays over the fight_.
 
-![Emil](/thoughts/nier-automata-emil.jpg)
+![Emil](/public/thoughts/nier-automata-emil.jpg)
 
 While I cannot say that I have played the original game, I've read a lot into (and watched footage of) the original _Nier_ and I think _Nier: Automata_ does a fantastic job tying the two stories together.
 
 ### Plot Segments
 
-I simply cannot finish my review on _Nier: Automata_ without talking about the game's discontinuity and disconnection. I never felt as drawn in to the game's story as many others are because of its disconnection of plot points. As with most story-based games, _Nier: Automata_'s story is broken into segments (plot points) with filling content to bind each idea together. Although each segment of story should logically flow to the next, I argue that it does not always do so - and as illustration, I will refer to another game I have played in the past that contained the same weakness: [Assassin's Creed: Odyssey](http://sam.bossley.us/thoughts/assassins-creed-odyssey).
+I simply cannot finish my review on _Nier: Automata_ without talking about the game's discontinuity and disconnection. I never felt as drawn in to the game's story as many others are because of its disconnection of plot points. As with most story-based games, _Nier: Automata_'s story is broken into segments (plot points) with filling content to bind each idea together. Although each segment of story should logically flow to the next, I argue that it does not always do so - and as illustration, I will refer to another game I have played in the past that contained the same weakness: [Assassin's Creed: Odyssey](http://sam.bossley.us/public/thoughts/assassins-creed-odyssey).
 
 My main criticism of _Assassin's Creed: Odyssey_'s story was that while each plot point in the story was beautifully executed, _each plot point failed to connect to a general theme_. Quoting myself from two years ago,
 
@@ -186,7 +186,7 @@ I guess this question answers itself with the amount of grief some individual ro
 
 I additionally found it extremely questionable that of the entire YoRHa forces, 2B and 9S did more work than any other member of the forces - why are they assigned most of the heavy lifting when YoRHa has potentially hundreds of members?
 
-![a meme with mr incredible (2B and 9S) complaining about his back carrying the weight of YoRHa](/thoughts/nier-automata-carry.jpg)
+![a meme with mr incredible (2B and 9S) complaining about his back carrying the weight of YoRHa](/public/thoughts/nier-automata-carry.jpg)
 _2B and 9S quite literally "carrying" YoRHa._
 
 And, of course, a few minor visual discrepancies, such the [access point newly installed by Jackass still having a worn-down appearance](https://youtu.be/cr0Wu6qAVgs?t=36) (lack of quality parts is not an issue since the access point in the resistance camp is _brand new_), or the bridge to the commerical facility [somehow getting reinstalled](https://youtu.be/QYYwv-N9hwM?t=27) after being [torn down with the rise of the tower](https://youtu.be/YTFSPjMj6os?t=1227) - but I don't count these discrepancies against the game because they are mostly just my complaints rather than legitimate criticisms.
@@ -199,7 +199,7 @@ If the original lineup of tracks wasn't enough, the second playthrough introduce
 
 ## Design
 
-![a sample image of the main game menu](/thoughts/nier-automata-menu.jpg)
+![a sample image of the main game menu](/public/thoughts/nier-automata-menu.jpg)
 
 The design direction of this game is nothing short of phenomenal. To directly follow the android theme of the game's plot and mechanics, the user interfaces, menus, and dialogue boxes are block-shaped and simple. Each screen uses a maximum of four colors and flat icons. This is genuinely one of the first games I've played with a truly clean menu. Everything is ordered exactly how I would expect, and each menu is intuitive and easy to navigate. [Even the sounds and animations](https://youtu.be/4EikgO4tFl4) emphasize the clean mechanical nature of the android technology.
 

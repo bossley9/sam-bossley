@@ -1,9 +1,9 @@
 ---
+layout: layouts/thought
 title: Sailor Moon (1992-1993)
 desc: I decided to officially watch the original Sailor Moon show after being virtually perplexed by its popularity and influence in my life.
-date: 02/28/21 23:11
-lastUpdated: 03/01/21 07:00
-image: '/thoughts/sailor-poster.jpg'
+date: 2021-02-28 23:11:00
+image: "/public/thoughts/sailor-poster.jpg"
 tags:
   - review
   - show
@@ -17,7 +17,7 @@ It came to my attention that although I knew about Sailor Moon as a character, I
 
 So at the start of February I decided to rewatch (or, shall I say, watch) the original Sailor Moon that aired in 1992.
 
-![a Sailor Moon poster depicting all of the original Sailor Soliders](sailor-poster.jpg)
+![a Sailor Moon poster depicting all of the original Sailor Soliders](/public/thoughts/sailor-poster.jpg)
 
 While I could go into detail analyzing every single feature I liked and disliked about the show, I'll try to keep my thoughts relatively brief. I'll start by describing the plot (spoiler alert!), then continue with other significant topics of discussion that peaked my interest.
 
@@ -67,16 +67,16 @@ Here is a wonderful comparison of artstyles from the oldest to the most recent.
 
 **Sailor Moon (1992)**
 
-![The original Sailor Moon from 1992](sailor-old-anim.jpg)
+![The original Sailor Moon from 1992](/public/thoughts/sailor-old-anim.jpg)
 
 **Sailor Moon Crystal (2014)**
 
-![The new Sailor Moon from Sailor Moon Crystal](sailor-new-anim.jpg)
+![The new Sailor Moon from Sailor Moon Crystal](/public/thoughts/sailor-new-anim.jpg)
 
 But there's always a nostalgia behind older forms of art to see how far technology has come since then.
 
 > [Kohei Ashiya](https://twitter.com/asikoh009), a David Production animator, once created a JoJo artstyle representation of Sailor Moon that I thought looked interesting. Looks like Jolyne Cujoh.
-> <img width=300 alt="An image of Sailor Moon made to look like the artstyle of Jojo's Bizarre Adventures" src="sailor-jojo.jpg" />
+> <img width=300 alt="An image of Sailor Moon made to look like the artstyle of Jojo's Bizarre Adventures" src="/public/thoughts/sailor-jojo.jpg" />
 
 ### Crybaby Usagi
 
@@ -90,7 +90,7 @@ She is always irritable, crying, or complaining. She even explains at the intro 
 
 This image is a perfect representation of the average atmosphere of the sailor soldiers in a given episode.
 
-![Usagi crying while the other sailors look at her with tired irritation](sailor-cry.png)
+![Usagi crying while the other sailors look at her with tired irritation](/public/thoughts/sailor-cry.png)
 
 > In fact, in the creation of this article, I found a parody where someone created an [AMV (Anime Music Video) themed around Usagi](https://www.youtube.com/watch?v=94CaZ5nycks) for the album _Cry Baby_ by Melanie Martinez.
 
@@ -104,7 +104,7 @@ The plot of the series is poorly paced. The show follows a [slice-of-life](https
 
 I also don't understand how the enemy has such a hard time tracking down Sailor Moon and her team of soldiers. For example, in episode 36, one of the monsters tries to unveil Sailor Moon's identity by disguising themself as a hairdresser and analyzing girls' hairstyles to find Sailor Moon. Instead of choosing the obvious candidate Usagi who is the _only person in the hair salon to have big long double ponytails_, the monster gets confused and thinks the wrong person is Sailor Moon. I'm still unsure how no one can seem to notice the fact that Sailor Moon and Usagi both have the same hair, body type, and voice.
 
-![Sailor Moon and Usagi Tsukino appearance comparison. Both have the same appearance with slight alterations in wardrobe taste](sailor-who.jpg)
+![Sailor Moon and Usagi Tsukino appearance comparison. Both have the same appearance with slight alterations in wardrobe taste](/public/thoughts/sailor-who.jpg)
 
 ### Conclusion
 

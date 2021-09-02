@@ -1,5 +1,6 @@
 ---
-title: 'Vim: The Ubiquitous Text Editor'
+layout: layouts/thought
+title: "Vim: The Ubiquitous Text Editor"
 desc:
   I hope to persuade not only developers but everyone to learn vim and its keybindings. Vim
   is a text editing software that is built around the keyboard, and because of this, editing
@@ -8,8 +9,7 @@ desc:
   comfortable with the new text editing process, it has increased my productivity by
   allowing me to navigate files much faster and improving my typing speed. I hope to
   persuade everyone regardless of their background or computer skill to try vim.
-date: 12/22/20 15:56
-lastUpdated: 12/22/20 15:56
+date: 2020-12-22 15:56:00
 tags:
   - tech
   - suggestion
@@ -48,60 +48,60 @@ In these examples I will use Google Docs/VS Code and Vim side by side to show th
    **Google Docs**
 
    Scroll to the top, move the cursor to the start of the first pragraph, then click.
-   ![Google Docs scrolling to the top and clicking at the start of the document](/thoughts/vim-doc-top.gif)
+   ![Google Docs scrolling to the top and clicking at the start of the document](/public/thoughts/vim-doc-top.gif)
 
    **Vim**
 
    Type `gg` to move to the first column of the first line.
-   ![Vim scrolling to the top of a document using the gg keybinding](/thoughts/vim-vim-top.gif)
+   ![Vim scrolling to the top of a document using the gg keybinding](/public/thoughts/vim-vim-top.gif)
 
 2. Replace all instances of "MCU" with "DCEU".
 
    **Google Docs**
 
    Search for MCU, then double click and type DCEU for each instance of MCU.
-   ![Google Docs using ctrl-f to search for MCU, then double-clicking and typing for each instance](/thoughts/vim-doc-replace.gif)
+   ![Google Docs using ctrl-f to search for MCU, then double-clicking and typing for each instance](/public/thoughts/vim-doc-replace.gif)
 
    **Vim**
 
    Type `:%s/MCU/DCEU/g` to automatically switch into command mode and substitute every global instance of MCU with DCEU.
-   ![Vim using an ex command to replace all text instances](/thoughts/vim-vim-replace.gif)
+   ![Vim using an ex command to replace all text instances](/public/thoughts/vim-vim-replace.gif)
 
 3. Delete an entire sentence.
 
    **Google Docs**
 
    Move the cursor to the end of the sentence, highlight the sentence, then press backspace.
-   ![Google docs performing the specified action](/thoughts/vim-doc-sentence.gif)
+   ![Google docs performing the specified action](/public/thoughts/vim-doc-sentence.gif)
 
    **Vim**
 
    Type `v)hx` to go into visual mode, select the sentence object, move back a character, then delete.
-   ![Vim performing the specified action](/thoughts/vim-vim-sentence.gif)
+   ![Vim performing the specified action](/public/thoughts/vim-vim-sentence.gif)
 
 4. Remove all args from a async handler function definition.
 
    **Code**
 
    Move the cursor to the end of the parenthesis, highlight content within the parenthesis, then press backspace.
-   ![VS Code performing the specified action](/thoughts/vim-code-args.gif)
+   ![VS Code performing the specified action](/public/thoughts/vim-code-args.gif)
 
    **Vim**
 
    Type `f(di(` to find the parenthesis, then delete everything inside the parentheses text object.
-   ![Vim performing the specified action](/thoughts/vim-vim-args.gif)
+   ![Vim performing the specified action](/public/thoughts/vim-vim-args.gif)
 
 5. Find the file which contains the definition for "HERO_BANNER_IMG".
 
    **Code**
 
    Use Code's file search pane to search for the specified string, the click on the specified file.
-   ![VS Code performing the specified action](/thoughts/vim-code-find.gif)
+   ![VS Code performing the specified action](/public/thoughts/vim-code-find.gif)
 
    **Vim**
 
    Using Ripgrep and fzf, parse files for the string, then use Vim tags to jump to the specified file.
-   ![Vim performing the specified action](/thoughts/vim-vim-find.gif)
+   ![Vim performing the specified action](/public/thoughts/vim-vim-find.gif)
 
 _Someone could argue that if I clicked on the correct file for VS Code first it would have been faster. I agree, but this test takes into account the file searching algorithms as well._
 
@@ -110,12 +110,12 @@ _Someone could argue that if I clicked on the correct file for VS Code first it 
    **Code**
 
    Click and type quotation marks at the start and end of the word.
-   ![VS Code performing the specified action](/thoughts/vim-code-surround.gif)
+   ![VS Code performing the specified action](/public/thoughts/vim-code-surround.gif)
 
    **Vim**
 
    Type `ysiw` using `vim-surround` to surround an inner text object with some character. This can be done in Vim a number of ways, including macros.
-   ![Vim performing the specified action](/thoughts/vim-vim-surround.gif)
+   ![Vim performing the specified action](/public/thoughts/vim-vim-surround.gif)
 
 I haven't even provided any examples using Vim macros or complex text objects. Vim is an objectively more powerful editor than most text editors because it focuses on editing rather than drafting and provides powerful tools such as macros and text objects to improve editing workflows.
 
@@ -125,5 +125,5 @@ How did Vim improve my workflow? How am I so effective at coding and coursework?
 
 A lot of people I know are actually willing to learn Vim - they simply haven't because they are under the assumption it is "hard to learn". How did I learn Vim? Vim actually has a built in tutorial that will walk you through switching from a standard text editor like Google Docs or VS Code to a Vim workflow. In 2019, I was a die-hard VS Code user. Near the start of 2020, I saw a few videos of Vim users using Vim and it blew my mind how efficient they were at translating their ideas into text and made it a goal to learn Vim before the end of the year. Like many people, I started using Vim by using the tutorial. It was painfully slow and hard to get adjusted to the new workflow, but I get better and faster at editing in Vim as time went on. As 2020 reaches a close, I believe that one of the best things I ever did this year was learn Vim, and I hope that any programmers or editors reading this will seriously consider learning Vim to improve their workflow and increasing their efficiency.
 
-![A meme about new Vim users not being able to exit out of Vim](/thoughts/vim-exit.jpg)
-![A meme about Vim users pushing Vim on their friends](/thoughts/vim-evangelism.jpg)
+![A meme about new Vim users not being able to exit out of Vim](/public/thoughts/vim-exit.jpg)
+![A meme about Vim users pushing Vim on their friends](/public/thoughts/vim-evangelism.jpg)

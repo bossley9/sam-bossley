@@ -1,0 +1,9 @@
+---
+layout: layouts/main
+---
+
+<section>
+  <h1>Thoughts</h1>
+  {% import "fragments/thoughtslist.njk" as thoughtsList %}
+  {{ thoughtsList.create(collections.thoughts | sortByDate) }}
+</section>

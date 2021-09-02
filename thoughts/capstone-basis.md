@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Capstone (Basis)
 desc: This post is an overview of my basis of understanding with Unity and an assignment I completed to demonstrate my ability to handle the capstone assignment
-date: 01/20/21 00:38
-lastUpdated: 01/20/21 00:38
+date: 2021-01-20 00:38:00
 tags:
   - tech
   - video game
@@ -39,7 +39,7 @@ I created a new Unity project using the LTS (Long Term Support) version _2019.4.
 
 The final result of the tutorial is picture below.
 
-![A Unity window of the cyan sphere in a square area space with 12 yellow cube-shaped floating objects](/thoughts/capstone-basis-tutorial.jpg)
+![A Unity window of the cyan sphere in a square area space with 12 yellow cube-shaped floating objects](/public/thoughts/capstone-basis-tutorial.jpg)
 
 ### 2. Dynamically position pickups on start.
 
@@ -49,8 +49,8 @@ I additionally decided to delegate all start functionality into a `GameObject` c
 
 By randomly generating a starting position for each pickup at start time, the pickups will be dynamically placed with each play and each play will be completely different from the one before it.
 
-![A random placing of pickups in a specific location](/thoughts/capstone-basis-rand-loc-1.jpg)
-![A different random placing of pickups in a specific location](/thoughts/capstone-basis-rand-loc-2.jpg)
+![A random placing of pickups in a specific location](/public/thoughts/capstone-basis-rand-loc-1.jpg)
+![A different random placing of pickups in a specific location](/public/thoughts/capstone-basis-rand-loc-2.jpg)
 
 ### 3. Create a Powerup manager that spawns powerups and deletes them after a brief time.
 
@@ -64,7 +64,7 @@ During gameplay, the powerups will spawn and the timers for each powerup will co
 
 If the player touches a powerup, it will immediately disappear, skipping the count down and granting the player a speed multiplier.
 
-![A powerup in the editor world](/thoughts/capstone-basis-powerup.jpg)
+![A powerup in the editor world](/public/thoughts/capstone-basis-powerup.jpg)
 
 ### 4. Use the course assets to represent the sphere and pickups.
 
@@ -72,7 +72,7 @@ For course assets, I decided to use a Unity package called [_Street Prop Items_]
 
 Since there were no rounded objects that might roll in a similar fashion as a sphere, I chose a wooden crate to represent the main player. I chose a fire hydrant to represent the pickups since they are easily noticeable. Finally, I chose a bright orange traffic cone to represent all powerups because they stand out and emphasize the powerups. I had to tweak the rotation script of the original Roll-a-ball tutorial to only spin along the Y-axis.
 
-![The Unity viewport with fire hydrant pickups, traffic cone powerups and a wooden crate player](/thoughts/capstone-basis-traffic.jpg)
+![The Unity viewport with fire hydrant pickups, traffic cone powerups and a wooden crate player](/public/thoughts/capstone-basis-traffic.jpg)
 
 ### 5. Add particle effects to player and pickups.
 
@@ -84,7 +84,7 @@ To make matters simple, I used similar particle system components for both the p
 
 For the pickups I reused the original player sphere material to make it appear as if the fire hydrants were spraying water. I reused the fire hydrant material for the player particles and enlarged them to make it seem as if the crate is lifting dirt as it moves across the area.
 
-![The final product](/thoughts/capstone-basis-particles.jpg)
+![The final product](/public/thoughts/capstone-basis-particles.jpg)
 
 ## Conclusion
 

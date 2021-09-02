@@ -1,12 +1,12 @@
 ---
+layout: layouts/thought
 title: Why You Should Use RSS (Why Modern Social Media Sucks)
 desc:
-  'In this post I hope to discourage everyone away from traditional social media platforms
+  "In this post I hope to discourage everyone away from traditional social media platforms
   due to their toxicity and sexualization. As an objectively superior alternative, I
   recommend RSS, an ad-free content streamlined system to ensure only the content you
-  intend to see will be shown to you.'
-date: 08/13/20 10:57
-lastUpdated: 08/13/20 13:35
+  intend to see will be shown to you."
+date: 2020-08-13 10:57:00
 tags:
   - tech
   - suggestion
@@ -40,7 +40,7 @@ comments. We receive instant _gratification_ the moment we receive a like or upv
 our posts. But is it _really_ gratification, or is it the relief that other people care about
 our actions?
 
-Last fall I read an [amazing article](/thoughts/rss-comprehensive-overstimulation.pdf) (I
+Last fall I read an [amazing article](/public/thoughts/rss-comprehensive-overstimulation.pdf) (I
 recommend reading its entirety) written by Gregory Robson regarding the overabundance of
 stimuli present in our daily lives. Even under the COVID-19 quarantine, we are bombarded with
 notifications, phone vibrations, emails, noises, lights, and signs that fill the sensory
@@ -148,7 +148,7 @@ _Really Simple Syndication_, is a content feed that allows a user to add sites a
 their feed, and all the content aggregated from these sites will be streamlined into a single
 source. How it works is that most popular sites host code files specific to an article, user,
 or profile. In fact, you can view the RSS feed for my thoughts
-[here](https://sam.bossley.us/feeds/thoughts.xml). Once you gather all these urls for content
+[here](https://sam.bossley.us/feeds/public/thoughts.xml). Once you gather all these urls for content
 you wish to follow, you can use an _RSS reader_ to input all urls, and it will streamline that
 content for you, free of ads and useless information you don't care for. The concept of RSS used
 to be very popular in the early 2000s, but has since become obsolete with the creation of modern
@@ -157,14 +157,14 @@ site today. With RSS, you don't have to use multiple social media apps to view t
 each account you follow, and instead, it is possible to aggregate all these posts onto one site.
 Using Newsboat, here is an example of my last article.
 
-![Newsboat displaying my prevous article of Steel Ball Run](/thoughts/rss-newsboat.png)
+![Newsboat displaying my prevous article of Steel Ball Run](/public/thoughts/rss-newsboat.png)
 
 I think newsboat is very minimal, but I'm able to aggregate my feeds into a simple interface
 where I can view only the content I want to see. The beauty of RSS is that there are many
 RSS readers, and you can choose which reader you would like to use to aggregate all content.
 I personally suggest [feedly](https://feedly.com/), a user-friendly modern RSS reader.
 
-![Feedly diplaying my articles](/thoughts/rss-feedly.png)
+![Feedly diplaying my articles](/public/thoughts/rss-feedly.png)
 
 Most modern sites offer RSS urls for a user to subscribe to their content. Using RSS, you can
 subscribe to exactly the content you wish to see without ads and social media overhead.

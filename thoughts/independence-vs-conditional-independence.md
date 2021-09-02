@@ -1,13 +1,13 @@
 ---
-title: 'Independence vs Conditional Independence: A Modern Misconception'
+layout: layouts/thought
+title: "Independence vs Conditional Independence: A Modern Misconception"
 desc:
   In this full disclosure of my thoughts, I hope to explain to people the difference
   of being an independent person vs being a conditionally independent person. With that
   explanation, I aim to help other people learn to be more independent.
-date: 09/12/20 14:57
-lastUpdated: 09/12/20 14:57
+date: 2020-09-12 14:57:00
 tags:
-  - suggestion
+  - commentary
 ---
 
 Generation Z, or as we like to call ourselves, _"Zoomers"_, think it's "cool" to be independent. We like to brag about how "independent" we are. We like to have our own cars, our own apartments, and pay for our own expenses, because each of these things give us the sense of control over our destinies. But what does being independent really mean? We often miscontrue the definition of independence to reflect our personal goals and ideals. My aim is to correct that misconception. I will talk about the true definition of independence and how to become truly independent, not conditionally independent.

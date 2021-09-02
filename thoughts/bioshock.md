@@ -1,21 +1,21 @@
 ---
+layout: layouts/thought
 title: Bioshock Remastered (2016)
 desc: My thoughts of the game Bioshock
-date: 03/19/20 12:18
-lastUpdated: 03/19/20 12:18
-image: "/thoughts/bioshock-big-daddy.jpg"
+date: 2020-03-19 12:18:00
+image: "/public/thoughts/bioshock-big-daddy.jpg"
 tags:
   - video game
   - review
 ---
 
-# The Game I missed Out On
+## The Game I missed Out On
 
 Nowadays, Bioshock is considered an ancient game. It's one of those video games you heard a lot about when you were a kid, like, "that was a good game" and you see it on your dad's dusty shelf of dvds. You're not gonna be begging your mom to buy some game that's almost 15 years old when you can buy Animal Crossing: New Horizons on Switch. No one really buys or plays old games from 2007 anymore.
 
 So that's exactly what I did. Let me backtrack for a little bit.
 
-My parents are very frugal people. They don't like to spend money on material things or "nice things", if you will, and that definitely includes entertainment systems and video games, because of course, those things "aren't productive". As a kid I a grew up really deprived of video games. I didn't get to experience grinding for a character build, or exploring amazing environments or immersing myself in make-believe worlds; instead, I got to sit at home and find things to do with my siblings. The only games I really got to play were free online games like Roblox, or ancient MS-DOS games like Freddy Pharkas on a floppy disk (There's only a handful of people in my age group who have used a floppy disk). I lived out most of my actual video game experiences at other people's houses and through friends. When I was in elementary school all my friends would talk about at lunch was their underground bases in Minecraft Alpha (and this was back in the time when Minecraft was still a simple browser game), or they'd talk about their bases in Starcraft II, or their characters in World of Warcraft, and all I could do was just envy them for being able to experience amazing things I could never experience. 
+My parents are very frugal people. They don't like to spend money on material things or "nice things", if you will, and that definitely includes entertainment systems and video games, because of course, those things "aren't productive". As a kid I a grew up really deprived of video games. I didn't get to experience grinding for a character build, or exploring amazing environments or immersing myself in make-believe worlds; instead, I got to sit at home and find things to do with my siblings. The only games I really got to play were free online games like Roblox, or ancient MS-DOS games like Freddy Pharkas on a floppy disk (There's only a handful of people in my age group who have used a floppy disk). I lived out most of my actual video game experiences at other people's houses and through friends. When I was in elementary school all my friends would talk about at lunch was their underground bases in Minecraft Alpha (and this was back in the time when Minecraft was still a simple browser game), or they'd talk about their bases in Starcraft II, or their characters in World of Warcraft, and all I could do was just envy them for being able to experience amazing things I could never experience.
 
 Now that I'm an adult and I'm able to live my own life I've found myself being drawn not to newer games (e.g. Doom Eternal) or games with better graphics, but rather towards the older generation of games. I do think there's some kind of subconscious nostalgic factor at play, but based on my personal experience, I think games made in my childhood had better storylines and ideas because they didn't have the software or hardware (see PS5 specs) necessary to create the mindblowing graphics you see today (RTX raytracing on!) so they had to create an amazing story to draw in new players.
 
@@ -46,9 +46,7 @@ Based on the tapes, the preceding story appears to have occurred as follows:
 
 > Over time, the citizens became addicted to Adam. It had some addictive properties (in addition to the fact that being able to "play god" with their bodies was appealing), and so the citizens began trying to "harvest" Adam from the Little Sisters, by removing the slugs from the sisters (and killing them in the process). Ryan did not want the Little Sisters to be harmed at all, or for people to not be able to control their urges, so he created Big Daddies, or men who have been conditioned to protect the Little Sisters. Originally underwater construction workers, they were given armored gear and weapons to ensure that individuals did not try to kill the Little Sisters for their Adam.
 
-![A Bouncer Big Daddy holding a Little Sister](/thoughts/bioshock-big-daddy.jpg)
-
-Pictured: A Bouncer Big Daddy holding a Little Sister
+![A Bouncer Big Daddy holding a Little Sister](/public/thoughts/bioshock-big-daddy.jpg)
 
 > Over time, Rapture became increasingly less stable as people wanted more Adam and were rising up. Soon, a man, Frank Fontaine, rose above the people, promising them Adam and a future where Rapture would be free. Then, on New Year's Eve in 1959, a revolt happened and Frank Fontaine tore apart Rapture. His followers had all used Adam to give themselves unique abilities. Rapture fell apart into a civil war and many people died. The few that remained became increasingly addicted to Adam, which made them all mentally unstable, and they were given the nickname "spicers", which I believe comes from "gene splicing" (although, like I said, much of this is ambiguous ponderings based on what I experienced from the audio tapes lying around).
 
@@ -58,9 +56,9 @@ It's actually incredible how much story a game can convey just from audio record
 
 [Diane McClintock - Released Today](https://www.youtube.com/watch?v=YLK2ZxyJ6gI)
 
-![Splicer hung from a wall with the word "smuggler" written in blood behind him](/thoughts/bioshock-smuggler.jpg)
+![Splicer hung from a wall with the word "smuggler" written in blood behind him](/public/thoughts/bioshock-smuggler.jpg)
 
-!["Aesthetics are a moral imperative" written in blood on the floor with pictures of mismatched faces hung on a wall](/thoughts/bioshock-moral-imperative.jpg)
+!["Aesthetics are a moral imperative" written in blood on the floor with pictures of mismatched faces hung on a wall](/public/thoughts/bioshock-moral-imperative.jpg)
 
 There are many analyses of what happened in Rapture based on these artifacts, and you can see examples like [this one](https://www.youtube.com/watch?v=585mySDvRbM). This demonstrates how ambiguous the game is, and it leaves the interpretation to the game player, which allows them to use their imagination. This is quite possibly the most powerful thing a game can do to a player.
 
@@ -68,7 +66,7 @@ Now let me talk about the core story behind the gameplay. As it turns out, Atlas
 
 Andrew Ryan prevents this from happening and blows up the bathysphere. At this point, the player begins to hate Ryan for confining both you and Atlas to Rapture. Up to this point, you see that Andrew hates Atlas, and vice versa, but you have no idea why. After this disaster, Atlas asks if you would kinly kill Andrew Ryan. You agree, and then proceed to find Ryan in his office to kill him. At this point, you begin to see posters with the title, "Who is Atlas?"
 
-![Poster reading "Who is Atlas?"](/thoughts/bioshock-who-is-atlas.jpg)
+![Poster reading "Who is Atlas?"](/public/thoughts/bioshock-who-is-atlas.jpg)
 
 It's only then that the player begins to question everything. After all, why is Atlas helping the player? The player has never seen Atlas face to face. Uncertainty begins to build for the mid part of the game, until the [climax of the game](https://www.youtube.com/watch?v=P9DhpjRklgk).
 

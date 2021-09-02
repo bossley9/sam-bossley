@@ -1,8 +1,8 @@
 ---
+layout: layouts/thought
 title: Living in a Hole
 desc: In this article I explore my inner demons and provide social commentary on how I have overcome them.
-date: 01/28/21 12:25
-lastUpdated: 01/28/21 12:25
+date: 2021-01-28 12:25:00
 tags:
   - reflection
 ---
@@ -45,7 +45,7 @@ As I have accepted depression as a part of my identity, I have developed a stron
 
 How did I tame this monster within me? I know many people struggle with depression as well. To be clear, I still struggle with my depression. The absence of joy. The constant desire to kill myself. But I have tamed it and maintain my unwarranted emotional state. Here are a few methods which have helped me tame the monster within me in hopes that my struggles and experimentation might help others with the same problem.
 
-- **Writing**. I have found that the best way to deal with unwarranted, unavoidable emotions is to express them in their fullest capacity. By expressing your unfiltered emotions, you release them and free yourself from their grasp. I have been keeping an emotional log ever since middle school, expressing my mind in writing whenever I have felt extreme emotions and needed to release them. My emotional log is now public on my website and can be [found here](/log). I'm publicizing them in hopes that people will read them and learn from them. Unfortunately, many of my physical notebooks were lost in the process of moving to university, but all of my writing from 2018 and forward has been preserved. And yes, I continually write in my emotional log to this day.
+- **Writing**. I have found that the best way to deal with unwarranted, unavoidable emotions is to express them in their fullest capacity. By expressing your unfiltered emotions, you release them and free yourself from their grasp. I have been keeping an emotional log ever since middle school, expressing my mind in writing whenever I have felt extreme emotions and needed to release them. ~~My emotional log is now public on my website and can be [found here](/log)~~. I'm publicizing them in hopes that people will read them and learn from them. Unfortunately, many of my physical notebooks were lost in the process of moving to university, but all of my writing from 2018 and forward has been preserved. And yes, I continually write in my emotional log to this day.
 - **Music**. Music has been a large part of my life ever since I was young. Both the consumption and creation of music helps me see that not everything needs to have a straightforward purpose or rhyme. I have been told that music speaks directly to the soul, and I abide by that. Recently I have been playing more guitar because of its ease of access - if I need to calm my emotions or live through them, what better way to do that than by picking up my guitar and strumming?
 - **Yoga**. Yoga as an East Asian practice is a blanket term comprised of meditation, physical exercises, and other techniques designed to help someone attain a higher state of consciousness. In particular, I personally practice secular breathing meditation and stretching. I have found that clearing the body of all hinderances clears the mind. With a clear mind, the body is capable of anything and everything. Because of this, I never say to myself, "I can't do this." or "that's impossible!" because I know that truly anything can be achieved through willpower and strength.
 

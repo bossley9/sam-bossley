@@ -1,14 +1,14 @@
 ---
+layout: layouts/thought
 title: "Assassin's Creed: Odyssey (2018)"
 desc: "My opinion of the latest Assassin's Creed game, Odyssey"
-date: 11/08/18
-lastUpdated: 12/05/18
+date: 2018-11-08 00:00:00
 tags:
   - video game
   - review
 ---
 
-My honest opinion on _Assassin's Creed: Odyssey_?
+My honest opinion on *Assassin's Creed: Odyssey*?
 At first, it seems like a pretty nice game. At first.
 I would rate this game a solid 6/10.
 
@@ -16,7 +16,7 @@ First of all, I would like to note that I am a huge fan of these kinds of games.
 
 However, the story is lacking. The story begins off strong, telling how the main character (Alexios) is a mercenary who has been raised as an orphan because his father, a great general of Sparta, had to throw him off a cliff for accidentally killing someone. Eventually, he is given a hard job as a mercenary - to assassinate his father. That's the first 5 hours of the game. After that, the story breaks down. The opener makes it sound like the climax of the game is when you find your father and have to kill him - but in actuality, I found the father after 1 hour of playing and then instead of killing him, I let him escape and that story arc ended. My main issue with this game is that it continually changes what you think will be the main story-line so there is no central idea holding it together. It keeps adding elements to the story (for example, now there are cultists I need to assassinate, as well as mysterious intelligent beings from before our time I need to investigate) and it makes the whole story jumbled.
 
-The leveling of the main character and the abilities are also jumbled. As you progress throughout the story, completing quests and the story-line, you gain experience to level up your character to increase your damage, armor and health. Like any game, the experience required to level up increases exponentially. However, you get to a point where you have to continually do quests and take down a bunch of small bandit camps just to stay at the same expected level. Grinsing is a normal part of any game but this requires slightly more effort than should be needed. Once the cult is discovered, you are bombarded with thousanda of quests you need to complete in order to level up and progress with the story which can be very overwhelming and irritating. 
+The leveling of the main character and the abilities are also jumbled. As you progress throughout the story, completing quests and the story-line, you gain experience to level up your character to increase your damage, armor and health. Like any game, the experience required to level up increases exponentially. However, you get to a point where you have to continually do quests and take down a bunch of small bandit camps just to stay at the same expected level. Grinsing is a normal part of any game but this requires slightly more effort than should be needed. Once the cult is discovered, you are bombarded with thousanda of quests you need to complete in order to level up and progress with the story which can be very overwhelming and irritating.
 
 In addition to these concept issues, there are obvious concrete issues. When horse-riding is very glitchy and can cause you to get stuck in a rock or mountain. Also, sometimes when boarding the enemy vessel, if it is sinking and you are still on board, you will get glitch inside the sinking ship and die underwater along with the ship.
 
