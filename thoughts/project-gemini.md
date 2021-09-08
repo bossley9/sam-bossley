@@ -96,12 +96,12 @@ Interested in trying out Gemini? Since Gemini has risen in popularity in the pas
 
 That being said, here are a few pieces of software I use currently:
 
-- Ariane. Ariane in an Android Gemini browser app. They've recently updated it to allow theme customizations and page styling options. It's as good as phone apps come.
+- Ariane. Ariane is an Android Gemini browser app. They've recently updated it to allow theme customizations and page styling options. It does its job and does it well.
 - Lagrange. Lagrange is a cross-platform Gemini browser client written in C. It's dead simple and looks really nice, and it's what I use on my desktop. It's pretty advanced as far as Gemini browsers go.
 
 ## Conclusion
 
-You may have noticed that my website format has changed. As I've alluded to in my previous update post, I've been in the process of simplifying my site to be only what I want to convey and nothing more. This is in hopes that eventually I will be able to host this site as a Gemini capsule in the future. I plan on deprecating, updating, and possibly removing old posts in order to align with this goal. As always, I keep my visibility public - you can view my website code at any time on my Github.
+You may have noticed that my website format has changed. As I've alluded to in my previous update post, I've been in the process of simplifying my site to be only what I want to convey and nothing more. This is in hopes that eventually I will be able to host this site as a Gemini capsule in the future. I plan on deprecating, updating, and possibly removing old posts in order to align with this goal (don't worry, I hope to move more visual content over to some video format - possibly Youtube or Odysee). As always, I keep my visibility public - you can view my website code at any time on my Github.
 
 [https://github.com/bossley9/website](https://github.com/bossley9/website)
 
