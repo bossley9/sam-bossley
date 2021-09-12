@@ -161,7 +161,7 @@ To put it plainly - Microsoft produces terrible products. And Zoom too, apparent
 
 [LaTeX](https://www.latex-project.org/) is single-handedly one of the greatest typing skills I have picked up in the past year (other than Vim) due to its versatility and ease of bibliography management when writing papers.
 
-> In fact, I now use LaTeX to generate [my resume](/Sam_Bossley.pdf) instead of Google Docs because it gives me more creative control over the content. You can create macros, include comments - the possibilities are endless.
+> In fact, I now use LaTeX to generate [my resume](/public/Sam_Bossley.pdf) instead of Google Docs because it gives me more creative control over the content. You can create macros, include comments - the possibilities are endless.
 
 I have noticed that I heavily rely on [Biber](http://biblatex-biber.sourceforge.net/) for bibliography management. However, it is not included in the default package system nor the ports for OpenBSD. The only way to integrate Biber into OpenBSD is to compile the package manually with gmake or to run the perl binaries raw.
 

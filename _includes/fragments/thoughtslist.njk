@@ -2,15 +2,11 @@
   <nav class="thoughtslist">
     {% if thoughts | length %}
       <ul>
-        {% for thought in thoughts %}
+        {% for thought in thoughts | sortByDate %}
           <li>
             <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title | title }}</a></h2>
             <p>
               <span class="date">{{ thought.data.date | dateFmt }}</span>
-              <span class="divider">&middot;</span>
-              {% for tag in thought.data.tags | sort %}
-                <a class="tag" href="/tags/{{ tag | slugClean }}">{{ tag }}</a>
-              {% endfor %}
             </p>
           </li>
         {% endfor %}

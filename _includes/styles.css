@@ -173,10 +173,6 @@ ul {
   list-style-type: disc;
 }
 
-.tag {
-  margin-right: 0.2rem;
-  padding: 0.5rem 0;
-}
 .tag,
 .tagtitle {
   /* color_3 */
@@ -191,9 +187,11 @@ ul {
 }
 
 .date,
-.divider,
 .tag {
   padding-right: 0.5rem;
+}
+.tag {
+  padding: 0.5rem;
 }
 
 .thought .title {
@@ -212,25 +210,25 @@ ul {
   }
 }
 
-.thought pre {
+pre {
   padding: 1rem;
   overflow-x: auto;
 }
-.thought code {
+code {
   padding: 0.1rem;
   font-size: 0.8rem;
 }
-.thought pre code {
+pre code {
   padding-right: 1rem;
 }
-.thought code,
-.thought pre {
+code,
+pre {
   /* color_4 */
   background-color: #d8dee9;
 }
 @media (prefers-color-scheme: dark) {
-  .thought code,
-  .thought pre {
+  code,
+  pre {
     /* color_3 */
     background-color: #4c566a;
     /* color_4 */

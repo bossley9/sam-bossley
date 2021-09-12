@@ -18,18 +18,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    if (outputPath.endsWith(".html")) {
-      let minified = HTMLMin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-      return minified;
-    }
-    return content;
-  });
-
   eleventyConfig.addShortcode("getBaseUrl", function () {
     return "https://sam.bossley.us";
   });
@@ -65,10 +53,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(PluginRSS);
 
-  eleventyConfig.addPassthroughCopy("./manifest.json");
-  eleventyConfig.addPassthroughCopy("./favicon.png");
-  eleventyConfig.addPassthroughCopy("./favicon_512x512.png");
-  eleventyConfig.addPassthroughCopy("./Sam_Bossley.pdf");
+  eleventyConfig.addPassthroughCopy("./manifest.json"); // seo
+  eleventyConfig.addPassthroughCopy("./robots.txt"); // webcrawlers
   eleventyConfig.addPassthroughCopy("./public");
 
   return {

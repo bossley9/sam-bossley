@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "DEBUG=* eleventy",
+    "build": "eleventy",
     "serve": "eleventy --serve",
     "clean": "rm -rf ./_site/"
   },

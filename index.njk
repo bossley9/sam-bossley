@@ -6,5 +6,5 @@ desc: Sam Bossley's website containing personal commentaries, tech articles, and
 <section>
   <h1>Thoughts</h1>
   {% import "fragments/thoughtslist.njk" as thoughtsList %}
-  {{ thoughtsList.create(collections.thoughts | sortByDate) }}
+  {{ thoughtsList.create(collections.thoughts) }}
 </section>
