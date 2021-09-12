@@ -67,7 +67,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("./manifest.json");
   eleventyConfig.addPassthroughCopy("./favicon.png");
-  eleventyConfig.addPassthroughCopy("./favicon_512x152.png");
+  eleventyConfig.addPassthroughCopy("./favicon_512x512.png");
   eleventyConfig.addPassthroughCopy("./Sam_Bossley.pdf");
   eleventyConfig.addPassthroughCopy("./public");
 
