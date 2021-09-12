@@ -7,22 +7,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/index.html" />
 
     <title>{{ pageTitle }}</title>
     <meta name="og:title" content="{{ pageTitle }}" />
     <meta name="twitter:title" content="{{ pageTitle }}" />
 
-    <link rel="apple-touch-icon" href="/favicon.png" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-startup-image" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
+    <link rel="shortcut icon" sizes="192x192" href="/favicon.png" />
 
     <meta property="og:site_name" content="{{ siteName }}" />
     <meta name="twitter:site" content="{{ siteName }}" />
+    <meta name="application-name" content="{{ siteName }}" />
+    <meta name="apple-mobile-web-app-title" content="{{ siteName }}" />
 
     <meta name="author" content="Sam Bossley" />
     <meta name="twitter:creator" content="Sam Bossley" />
+
+    <!-- color_6 -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#eceff4" />
+    <!-- color_0 -->
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440" />
 
     {% if desc %}
       <meta name="description" content="{{ desc }}" />

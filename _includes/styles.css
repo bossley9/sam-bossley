@@ -30,10 +30,13 @@ footer {
 /* header */
 
 header nav {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 header nav a {
+  /* color_10 */
+  color: #5e81ac;
   margin-right: 1rem;
+  padding: 0.5rem 0;
 }
 
 .company {
@@ -56,8 +59,9 @@ footer {
   padding: 0;
   list-style-type: none;
 }
-.about ul li {
-  padding: 0.2rem 0;
+.about ul li a {
+  display: inline-block;
+  padding: 0.5rem 0;
 }
 @media (prefers-color-scheme: dark) {
   .about ul li a {
@@ -75,6 +79,13 @@ footer {
 }
 .thoughtslist ul li h2 {
   margin: 0 0 0.3rem;
+}
+.thoughtslist h2 a {
+  /* color_10 */
+  color: #5e81ac;
+}
+.thoughtslist li p {
+  margin-top: 0;
 }
 
 /* article contents */
@@ -114,8 +125,8 @@ h6 {
 }
 
 a {
-  /* color_10 */
-  color: #5e81ac;
+  /* color_3 */
+  color: #4c566a;
   text-decoration: none;
 }
 a:hover {
@@ -126,6 +137,10 @@ a:focus {
   outline: 3px dotted #2e3440;
 }
 @media (prefers-color-scheme: dark) {
+  a {
+    /* color_7 */
+    color: #8fbcbb;
+  }
   a:focus {
     /* color_4 */
     outline: 3px dotted #d8dee9;
@@ -138,7 +153,6 @@ img {
   max-width: 100%;
   /* color_14 */
   color: #a3be8c;
-  border-radius: 4px;
   font-style: italic;
   font-size: 0.9rem;
 }
@@ -150,16 +164,36 @@ img::after {
   content: "(image)";
 }
 
+img,
+.thought pre {
+  border-radius: 8px;
+}
+
 ul {
   list-style-type: disc;
 }
 
-.divider {
-  padding: 0 0.2rem;
-}
-
 .tag {
   margin-right: 0.2rem;
+  padding: 0.5rem 0;
+}
+.tag,
+.tagtitle {
+  /* color_3 */
+  color: #4c566a;
+}
+@media (prefers-color-scheme: dark) {
+  .tag,
+  .tagtitle {
+    /* color_7 */
+    color: #8fbcbb;
+  }
+}
+
+.date,
+.divider,
+.tag {
+  padding-right: 0.5rem;
 }
 
 .thought .title {
@@ -193,7 +227,6 @@ ul {
 .thought pre {
   /* color_4 */
   background-color: #d8dee9;
-  border-radius: 4px;
 }
 @media (prefers-color-scheme: dark) {
   .thought code,

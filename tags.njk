@@ -11,7 +11,7 @@ permalink: /tags/{{ tag | slugClean }}/
 ---
 
 <section>
-  <h1>Tagged "{{ tag }}"</h1>
+  <h1>Tagged "<span class="tagtitle">{{ tag }}</span>"</h1>
   {% import "fragments/thoughtslist.njk" as thoughtsList %}
   {{ thoughtsList.create(collections.thoughts | sortByDate | filterByTag(tag)) }}
 </section>

@@ -4,9 +4,9 @@
       <ul>
         {% for thought in thoughts %}
           <li>
+            <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title | title }}</a></h2>
             <p>
-              <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title | title }}</a></h2>
-              <span>{{ thought.data.date | dateFmt }}</span>
+              <span class="date">{{ thought.data.date | dateFmt }}</span>
               <span class="divider">&middot;</span>
               {% for tag in thought.data.tags | sort %}
                 <a class="tag" href="/tags/{{ tag | slugClean }}">{{ tag }}</a>

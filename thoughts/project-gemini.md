@@ -53,7 +53,7 @@ Similarly with the lack of multimedia, the Gemini specifications for server file
 
 Finally, because the Gemini protocol is so innately simple, it leaves a much smaller data footprint than its HTTPS predecessor. Below is a short example of a simple server file ("website") in HTTPS's HTML:
 
-```
+```Sample HTML markdown
 <!doctype html>
 <html lang="en">
   <head></head>
@@ -72,7 +72,7 @@ Finally, because the Gemini protocol is so innately simple, it leaves a much sma
 
 Here is the same server file ("gemini capsule") in Gemini's Gemtext, almost reminiscent of Markdown:
 
-```
+```Sample Gemtext markdown
 # My Website
 
 Hello, my name is Sam. My website is cool. Some things I've read recently are:

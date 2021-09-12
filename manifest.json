@@ -1,0 +1,21 @@
+{
+  "name": "Sam Bossley",
+  "short_name": "Sam Bossley",
+  "description": "Sam Bossley's website containing personal commentaries, tech articles, and ways of life.",
+  "dir": "ltr",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#2e3440",
+  "theme_color": "#2e3440",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}
