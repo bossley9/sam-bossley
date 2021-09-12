@@ -108,3 +108,7 @@ You may have noticed that my website format has changed. As I've alluded to in m
 Project Gemini is an inspiring project that I hope grows in popularity and reach. I am excited to see what's in store for the internet in the near future.
 
 > I guess I should just end every article I write with "I just love technology so much" and be done with it, huh?
+
+EDIT: My Gemini capsule is live under the same domain :)
+
+[gemini://sam.bossley.us](gemini://sam.bossley.us)
