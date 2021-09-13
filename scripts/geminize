@@ -1,0 +1,65 @@
+#!/usr/bin/env sh
+# convert entire project from html to gemini
+# vim:fdm=marker
+
+# geminizefile {{{
+
+geminizefile() {
+  local file="$1"
+  local outFile="$2"
+
+  case "$file" in
+    *".html")
+      outMod="${outFile%.*}.gmi"
+      html2gmi -e -l 0 -i "$file" -o "$outMod"
+      echo "converted '${file}' -> '${outMod}'"
+      ;;
+    # passthrough for non-html files
+    *) cp -v "$file" "$outFile" ;;
+  esac
+}
+
+# }}}
+
+# geminizedir {{{
+
+geminizedir() {
+  local src="$1"
+  local dir="$2"
+  local outDir="$3"
+
+  mkdir -p "$outDir"
+
+  for file in $(ls -a "$dir"); do
+    srcPath="${src}/${file}"
+    dirPath="${dir}/${file}"
+    outPath="${outDir}/${file}"
+
+    if ! [ "$file" = "." ] && ! [ "$file" = ".." ]; then
+      if [ -d "$dirPath" ]; then
+        if [ -f "${srcPath}.gmi" ]; then
+          # passthrough
+          geminizefile "${srcPath}.gmi" "${outPath}.gmi"
+        else
+          geminizedir "$srcPath" "$dirPath" "$outPath"
+        fi
+      else
+        geminizefile "$dirPath" "$outPath"
+      fi
+    fi
+  done
+}
+
+# }}}
+
+# main {{{
+
+src="$(pwd)"
+dir="${src}/_site"
+outDir="${dir}_gemini"
+
+geminizedir "$src" "$dir" "$outDir"
+
+echo "done"
+
+# }}}

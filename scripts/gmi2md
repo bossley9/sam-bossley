@@ -1,0 +1,75 @@
+#!/usr/bin/env sh
+# Gemtext to Markdown converter. Preserves front matter.
+# vim:fdm=marker
+
+# linkConvert {{{
+
+linkConvert() {
+  local line
+  local mark
+
+  line="$(echo "$1" | tr -s "[:space:]" " ")"
+  line="${line##=> }"
+  line="${line%% }"
+
+  url=$(echo "$line" | cut -d ' ' -f 1)
+  alt=$(echo "$line" | cut -d ' ' -f 2-)
+
+  [ -z "$alt" ] && alt="$url"
+
+  if \
+    [ "$url" != "${url%%\.jpg}" ] || \
+    [ "$url" != "${url%%\.jpeg}" ] || \
+    [ "$url" != "${url%%\.png}" ] || \
+    [ "$url" != "${url%%\.svg}" ];
+  then
+    mark="!"
+  fi
+
+  echo "${mark}[${url}](${alt})"
+}
+
+# }}}
+
+# main {{{
+
+inFile="$1"
+outFile="$2"
+
+if ! [ -f "$inFile" ] || [ -z "$outFile" ]; then
+  echo "USAGE: gmi2md (input gemtext file) (output markdown file)"
+  exit 1;
+fi
+
+isPreformattedLine=0
+
+IFS=""
+while read line; do
+  case "$line" in
+    "\`\`\`"*)
+      [ "$isPreformattedLine" = "0" ] && \
+        isPreformattedLine=1 || \
+        isPreformattedLine=0
+      ;;
+  esac
+
+  outLine="$line"
+
+  if [ "$isPreformattedLine" = "0" ]; then
+    case "$line" in
+      "=>"*) outLine="$(linkConvert "$line")\n" ;;
+      "#"*) outLine="${line}\n" ;;
+      "*"*) outLine="-${line#\*}" ;;
+    esac
+  fi
+
+  outData="${outData}${outLine}\n"
+
+done < "$inFile"
+
+outData="$(echo "$outData" | sed -e 's/\n\n/\n/g')"
+
+echo "$outData" > "$outFile"
+echo "converted '${inFile}' -> '${outFile}'"
+
+# }}}

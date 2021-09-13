@@ -1,0 +1,42 @@
+#!/usr/bin/env sh
+# vim:fdm=marker
+
+# convertFile {{{
+
+convertFile() {
+  file="$1"
+
+  case "$file" in
+    *".gmi")
+      out="${file%\.gmi}.md"
+      ./scripts/gmi2md "$file" "$out"
+      ;;
+  esac
+}
+
+# }}}
+
+# recursiveSearch {{{
+
+recursiveSearch() {
+  local dir="$1"
+
+  for file in $(ls -a "$dir"); do
+    filePath="${dir}/${file}"
+
+    if ! [ "$file" = "." ] && ! [ "$file" = ".." ]; then
+      if [ -d "$filePath" ]; then
+        recursiveSearch "$filePath"
+      else
+        convertFile "$filePath"
+      fi
+    fi
+  done
+}
+
+# }}}
+
+dir="$(pwd)"
+[ -d "$1" ] && dir="${dir}/${1%%\/}"
+
+recursiveSearch "$dir"

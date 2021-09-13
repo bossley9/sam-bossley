@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "build": "eleventy",
+    "prepare": "./scripts/recGmi2md thoughts",
+    "build:gmi": "./scripts/geminize",
+    "build": "npm run prepare && eleventy",
     "serve": "eleventy --serve",
-    "clean": "rm -rf ./_site/"
+    "clean": "rm -rf ./_site/ ./_site_gemini/"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
