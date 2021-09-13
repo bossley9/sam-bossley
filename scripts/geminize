@@ -39,7 +39,8 @@ geminizedir() {
       if [ -d "$dirPath" ]; then
         if [ -f "${srcPath}.gmi" ]; then
           # passthrough
-          geminizefile "${srcPath}.gmi" "${outPath}.gmi"
+          mkdir -p "$outPath"
+          geminizefile "${srcPath}.gmi" "${outPath}/index.gmi"
         else
           geminizedir "$srcPath" "$dirPath" "$outPath"
         fi
