@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-# convert entire project from html to gemini
+# convert entire project folders from html to gemini
 # vim:fdm=marker
 
-# geminizefile {{{
+# geminizedir {{{
 
 geminizefile() {
   local file="$1"
@@ -24,28 +24,20 @@ geminizefile() {
 # geminizedir {{{
 
 geminizedir() {
-  local src="$1"
-  local dir="$2"
-  local outDir="$3"
+  local dir="$1"
+  local outDir="$2"
 
   mkdir -p "$outDir"
 
   for file in $(ls -a "$dir"); do
-    srcPath="${src}/${file}"
-    dirPath="${dir}/${file}"
+    path="${dir}/${file}"
     outPath="${outDir}/${file}"
 
     if ! [ "$file" = "." ] && ! [ "$file" = ".." ]; then
-      if [ -d "$dirPath" ]; then
-        if [ -f "${srcPath}.gmi" ]; then
-          # passthrough
-          mkdir -p "$outPath"
-          geminizefile "${srcPath}.gmi" "${outPath}/index.gmi"
-        else
-          geminizedir "$srcPath" "$dirPath" "$outPath"
-        fi
+      if [ -d "$path" ]; then
+        geminizedir "$path" "$outPath"
       else
-        geminizefile "$dirPath" "$outPath"
+        geminizefile "$path" "$outPath"
       fi
     fi
   done
@@ -55,11 +47,15 @@ geminizedir() {
 
 # main {{{
 
-src="$(pwd)"
-dir="${src}/_site"
+dir="$(pwd)"
+[ -d "$1" ] && dir="${dir}/${1%%\/}"
+
+# realpath is an mksh builtin so it's safe
+# dir="$(realpath "$dir")"
+
 outDir="${dir}_gemini"
 
-geminizedir "$src" "$dir" "$outDir"
+geminizedir "$dir" "$outDir"
 
 echo "done"
 

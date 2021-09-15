@@ -26,7 +26,7 @@ linkConvert() {
     mark="!"
   fi
 
-  echo "${mark}[${url}](${alt})"
+  echo "${mark}[${alt}](${url})"
 }
 
 # }}}
