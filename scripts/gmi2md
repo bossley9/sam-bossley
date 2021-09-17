@@ -17,14 +17,11 @@ linkConvert() {
 
   [ -z "$alt" ] && alt="$url"
 
-  if \
-    [ "$url" != "${url%%\.jpg}" ] || \
-    [ "$url" != "${url%%\.jpeg}" ] || \
-    [ "$url" != "${url%%\.png}" ] || \
-    [ "$url" != "${url%%\.svg}" ];
-  then
-    mark="!"
-  fi
+  case "$url" in
+    *.gif|*.jpg|*.jpeg|*.png|*.svg)
+      mark="!"
+      ;;
+  esac
 
   echo "${mark}[${alt}](${url})"
 }
@@ -44,7 +41,7 @@ fi
 isPreformattedLine=0
 
 IFS=""
-while read line; do
+while read -r line; do
   case "$line" in
     "\`\`\`"*)
       [ "$isPreformattedLine" = "0" ] && \
@@ -63,8 +60,8 @@ while read line; do
     esac
   fi
 
+  # outData="${outData}$(echo "$outLine" | sed -e 's/\\/\\\\/g')\n"
   outData="${outData}${outLine}\n"
-
 done < "$inFile"
 
 outData="$(echo "$outData" | sed -e 's/\n\n/\n/g')"

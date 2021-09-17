@@ -4,7 +4,7 @@
       <ul>
         {% for thought in thoughts | sortByDate %}
           <li>
-            <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title | title }}</a></h2>
+            <h2><a href="/thoughts/{{ thought.data.title | slugClean }}">{{ thought.data.title }}</a></h2>
             <p>
               <span class="date">{{ thought.data.date | dateFmt }}</span>
             </p>
