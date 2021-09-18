@@ -4,6 +4,26 @@ desc: Sam Bossley's website containing personal commentaries, tech articles, and
 ---
 
 <section>
+  <h1>About Me</h1>
+
+  <p>Hello, I'm <span class="name">Sam</span>! I'm a software engineer in San Jose, CA.</p>
+
+  <p>In my freetime I enjoy writing, reading, creating art, making music, memes, and gaming.</p>
+
+  <p>I love all things UNIX, POSIX, and Libre. (I use arch/openbsd btw)</p>
+
+  <p>Connect with me :)</p>
+
+  <nav class="about">
+    <ul>
+      <li><a href="mailto:bossley.samuel@gmail.com">bossley.samuel@gmail.com</a></li>
+      <li><a href="https://github.com/bossley9">https://github.com/bossley9</a></li>
+      <li><a href="/public/Sam_Bossley.pdf">resume</a></li>
+    </ul>
+  </nav>
+</section>
+
+<section>
   <h1>Thoughts</h1>
   {% import "fragments/thoughtslist.njk" as thoughtsList %}
   {{ thoughtsList.create(collections.thoughts) }}

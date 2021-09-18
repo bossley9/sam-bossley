@@ -66,8 +66,10 @@
     </style>
   </head>
   <body>
-    {% include "fragments/header.njk" %}
     {{ content | safe }}
-    {% include "fragments/footer.njk" %}
+    <footer>
+      <p><a href="/feed.xml">Subscribe to my feed!</a></p>
+      <p>&copy; Sam Bossley {% getCurrentYear %}</p>
+    </footer>
   </body>
 </html>

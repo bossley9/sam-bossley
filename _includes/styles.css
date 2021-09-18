@@ -23,27 +23,16 @@ header,
 article,
 section,
 footer {
-  width: 80%;
-  margin: 1rem auto 3rem;
+  width: 90%;
+  margin: 3rem auto;
 }
-
-/* header */
-
-header nav {
-  font-size: 1.4rem;
-}
-header nav a {
-  /* color_10 */
-  color: #5e81ac;
-  margin-right: 1rem;
-  padding: 0.5rem 0;
-}
-
-.company {
-  font-weight: 700;
-}
-.company:hover {
-  text-decoration: none;
+@media screen and (min-width: 480px) {
+  header,
+  article,
+  section,
+  footer {
+    width: 80%;
+  }
 }
 
 /* footer */
@@ -52,7 +41,19 @@ footer {
   font-size: 0.975rem;
 }
 
-/* about links */
+/* about */
+
+.name {
+  /* color_1 */
+  color: #3b4252;
+  font-weight: 700;
+}
+@media (prefers-color-scheme: dark) {
+  .name {
+    /* color_15 */
+    color: #b48ead;
+  }
+}
 
 .about ul {
   margin: 0;
@@ -110,6 +111,7 @@ h4,
 h5,
 h6 {
   margin: 1rem 0;
+  /* color_1 */
   color: #3b4252;
 }
 @media (prefers-color-scheme: dark) {
