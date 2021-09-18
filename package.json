@@ -4,7 +4,8 @@
     "build:gmi": "./scripts/geminize _site",
     "build": "npm run prepare && eleventy && rm ./thoughts/*.md",
     "serve": "eleventy --serve",
-    "clean": "rm -rf ./_site/ ./_site_gemini/"
+    "clean": "rm -rf ./_site/ ./_site_gemini/",
+    "deploy": "npm run clean && npm run build && npm run build:gmi"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
