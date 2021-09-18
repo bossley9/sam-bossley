@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "prepare": "./scripts/recGmi2md thoughts",
+    "build:prepare": "./scripts/recGmi2md thoughts",
     "build:gmi": "./scripts/geminize _site",
-    "build": "npm run prepare && eleventy && rm ./thoughts/*.md",
+    "build": "npm run build:prepare && eleventy && rm ./thoughts/*.md",
     "serve": "eleventy --serve",
     "clean": "rm -rf ./_site/ ./_site_gemini/",
     "deploy": "npm run clean && npm run build && npm run build:gmi"
