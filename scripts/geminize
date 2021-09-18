@@ -2,17 +2,52 @@
 # convert entire project folders from html to gemini
 # vim:fdm=marker
 
-# geminizedir {{{
+# geminject {{{
+
+geminject() {
+  local file="$1"
+  local outFile="$2"
+  local src="$3"
+
+  data="$(cat "$src")"
+
+  # remove front matter
+  # (assumption: front matter exists)
+  data="${data#*---}"
+  matter="${data%%---*}"
+  data="${data#*---}"
+
+  title="${matter##*title:\ }"
+  title="$(echo "$title" | head -n 1)"
+
+  date="${matter##*date:\ }"
+  date="$(echo "$date" | head -n 1)"
+
+  header="# ${title}\n\n${date}\n"
+  footer="Copyright Sam Bossley $(date "+%Y")"
+
+  echo "${header}${data}\n\n${footer}" > "$outFile"
+}
+
+# }}}
+
+# geminizefile {{{
 
 geminizefile() {
   local file="$1"
   local outFile="$2"
+  local src="$3"
 
   case "$file" in
     *".html")
       outMod="${outFile%.*}.gmi"
-      html2gmi -e -l 0 -i "$file" -o "$outMod"
-      echo "converted '${file}' -> '${outMod}'"
+      if [ -f "$src" ]; then
+        geminject "$file" "$outMod" "$src"
+        echo "injected '${file}' -> '${outMod}'"
+      else
+        html2gmi -e -l 0 -i "$file" -o "$outMod"
+        echo "converted '${file}' -> '${outMod}'"
+      fi
       ;;
     # passthrough for non-html files
     *) cp -v "$file" "$outFile" ;;
@@ -26,18 +61,21 @@ geminizefile() {
 geminizedir() {
   local dir="$1"
   local outDir="$2"
+  local src="$3"
 
   mkdir -p "$outDir"
 
   for file in $(ls -a "$dir"); do
     path="${dir}/${file}"
     outPath="${outDir}/${file}"
+    srcPath="${src}/${file}"
 
     if ! [ "$file" = "." ] && ! [ "$file" = ".." ]; then
       if [ -d "$path" ]; then
-        geminizedir "$path" "$outPath"
+        geminizedir "$path" "$outPath" "$srcPath"
       else
-        geminizefile "$path" "$outPath"
+        gmi="${srcPath%\/*}.gmi"
+        geminizefile "$path" "$outPath" "$gmi"
       fi
     fi
   done
@@ -47,15 +85,11 @@ geminizedir() {
 
 # main {{{
 
-dir="$(pwd)"
-[ -d "$1" ] && dir="${dir}/${1%%\/}"
+src="$(pwd)"
+dir="${src}/_site"
+outDir="${src}/_site_gemini"
 
-# realpath is an mksh builtin so it's safe
-# dir="$(realpath "$dir")"
-
-outDir="${dir}_gemini"
-
-geminizedir "$dir" "$outDir"
+geminizedir "$dir" "$outDir" "$src"
 
 echo "done"
 
