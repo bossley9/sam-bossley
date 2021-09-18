@@ -24,8 +24,9 @@ The United States offers a nationwide program called Medicaid: government-funded
 
 How do you apply, you ask? Let's walk through their online application.
 
-I first navigated to the [Molina Medicaid Benefits portal](https://ssp.benefits.ohio.gov) to find this page greeting me.
+I first navigated to the Molina Medicaid Benefits portal to find this page greeting me.
 
+=> https://ssp.benefits.ohio.gov Molina Medicaid Benefits portal
 => /public/thoughts/gov-web-ssp.png The Molina Medicaid Benefits homepage with old graphics and small links
 
 Ok, not the prettiest site, but it could be worse, right?

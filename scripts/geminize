@@ -19,6 +19,8 @@ geminject() {
 
   title="${matter##*title:\ }"
   title="$(echo "$title" | head -n 1)"
+  title="${title#\"}"
+  title="${title%\"}"
 
   date="${matter##*date:\ }"
   date="$(echo "$date" | head -n 1)"

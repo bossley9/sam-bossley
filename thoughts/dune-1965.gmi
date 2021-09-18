@@ -1,6 +1,6 @@
 ---
 layout: layouts/thought
-title: "The Muad'Dib"
+title: Dune (1965)
 desc: This review encompasses my thoughts after reading the famous scifi novel Dune by Frank Herbert. While it was not at all what I expected, There were a lot of beautiful pieces of the book I'd like to discuss before the movie adaptation releases.
 date: 2021-01-19 12:01:00
 image: /public/thoughts/muaddib-cover.jpg
