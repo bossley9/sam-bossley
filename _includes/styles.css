@@ -78,15 +78,29 @@ footer {
   margin: 0;
   padding: 0;
 }
-.thoughtslist ul li h2 {
-  margin: 0 0 0.3rem;
+.thoughtslist li {
+  margin-bottom: 1rem;
 }
-.thoughtslist h2 a {
+.thoughtslist li a {
+  display: flex;
+  flex-direction: column-reverse;
+  /* color_10 */
+  text-decoration-color: #5e81ac;
+}
+.thoughtslist .title {
+  display: block;
+  margin: 0 0 0.3rem;
   /* color_10 */
   color: #5e81ac;
+  /* mimic h2 */
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-.thoughtslist li p {
-  margin-top: 0;
+@media (prefers-color-scheme: dark) {
+  .thoughtslist .date {
+    /* color_4 */
+    color: #d8dee9;
+  }
 }
 
 /* article contents */

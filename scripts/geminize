@@ -26,7 +26,7 @@ geminject() {
   date="$(echo "$date" | head -n 1)"
 
   header="# ${title}\n\n${date}\n"
-  footer="Copyright Sam Bossley $(date "+%Y")"
+  footer="=> / Copyright Sam Bossley $(date "+%Y")"
 
   echo "${header}${data}\n\n${footer}" > "$outFile"
 }

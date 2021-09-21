@@ -40,9 +40,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("thoughts", function (collection) {
-    const gmi = collection.getFilteredByGlob("thoughts/*.md");
-    const md = collection.getFilteredByGlob("thoughtsmd/*.md");
-    return [...gmi, ...md];
+    return collection.getFilteredByGlob("thoughts/*.md");
   });
   eleventyConfig.addFilter("sortByDate", function (collection) {
     return collection.sort((a, b) => {
