@@ -47,7 +47,7 @@ geminizefile() {
         geminject "$file" "$outMod" "$src"
         echo "injected '${file}' -> '${outMod}'"
       else
-        html2gmi -e -l 0 -i "$file" -o "$outMod"
+        node ./scripts/html2gmi.js "$file" "$outMod"
         echo "converted '${file}' -> '${outMod}'"
       fi
       ;;

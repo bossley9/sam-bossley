@@ -1,7 +1,7 @@
 {% macro create(thoughts = []) %}
   <nav class="thoughtslist">
     {% if thoughts | length %}
-      <ul>
+      <ol>
         {% for thought in thoughts | sortByDate %}
           <li>
             <a href="/thoughts/{{ thought.data.title | slugClean }}">
@@ -10,7 +10,7 @@
             </a>
           </li>
         {% endfor %}
-      </ul>
+      </ol>
     {% else %}
       Oh no! There's no content here!
     {% endif %}
