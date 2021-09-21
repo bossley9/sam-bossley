@@ -61,7 +61,9 @@ It's actually incredible how much story a game can convey just from audio record
 => /public/thoughts/bioshock-smuggler.jpg Splicer hung from a wall with the word "smuggler" written in blood behind him
 => /public/thoughts/bioshock-moral-imperative.jpg "Aesthetics are a moral imperative" written in blood on the floor with pictures of mismatched faces hung on a wall
 
-There are many analyses of what happened in Rapture based on these artifacts, and you can see examples like [this one](https://www.youtube.com/watch?v=585mySDvRbM). This demonstrates how ambiguous the game is, and it leaves the interpretation to the game player, which allows them to use their imagination. This is quite possibly the most powerful thing a game can do to a player.
+There are many analyses of what happened in Rapture based on these artifacts, and you can see examples like the one linked below. This demonstrates how ambiguous the game is, and it leaves the interpretation to the game player, which allows them to use their imagination. This is quite possibly the most powerful thing a game can do to a player.
+
+=> https://www.youtube.com/watch?v=585mySDvRbM Bioshock story review
 
 Now let me talk about the core story behind the gameplay. As it turns out, Atlas is a man who just wants to save his family and flee Rapture, but he needs your help to let them go. For the first quarter of the game, you attempt to aid Atlas in any way possible (while still trying to flee Rapture yourself). Just as Atlas's wife and son is in a Bathysphere and you try to release the bathysphere, well...
 

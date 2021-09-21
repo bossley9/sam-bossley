@@ -95,7 +95,7 @@ Second, external links are generally a security hazard. Similar to the previous 
 
   One of the biggest lessons I've learned from personal web development is that just because something looks nice does not mean that it's "good". It doesn't matter if the prettiest interface known to man was created if it doesn't function properly. I would wager to say that these design decisions were made by someone not to add semantic meaning to the content, but rather, to make the website look "nice" or "modern" - neither of which this site accomplishes.
 
-* Forms are disconnected. Most websites will have forms that have connected fields - when the user presses TAB, the focus will shift from one input blank to the next, and when the user presses ENTER, the form will be submitted. However, the Medicaid benefits page does not follow this standard. When logging in, pressing ENTER does not submit the form; likewise, pressing TAB does not focus the next blank. This is directly against the standard put in place by [W3C](TODO), the official standards of the internet.
+* Forms are disconnected. Most websites will have forms that have connected fields - when the user presses TAB, the focus will shift from one input blank to the next, and when the user presses ENTER, the form will be submitted. However, the Medicaid benefits page does not follow this standard. When logging in, pressing ENTER does not submit the form; likewise, pressing TAB does not focus the next blank. This is directly against the standard put in place by W3C, the official standards of the internet.
 
 * The content server is unreliable. Last year, when I reapplied for medicaid through their site, I was required to upload legal documentation for them to verify my financial status and identity. While uploading files, I noticed that it wouldn't allow me to upload photos of my drivers license due to file size. At first I thought it was due to my phone camera being too high in resolution, so I scaled down the image and resubmitted it. It was still too big. After reading more carefully, I realized that the maximum upload size was 100K bytes. To put this in perspective, this is approximately the size of an image with dimensions 250x100 pixels.
 
@@ -105,8 +105,9 @@ Second, external links are generally a security hazard. Similar to the previous 
 
 ### Exhibit B: BMV
 
-When I applied to take my license permit and driver test, I went through the [Indiana official BMV website](https://www.in.gov/bmv/). Let's take a look and see how easy it is to navigate the website.
+When I applied to take my license permit and driver test, I went through the Indiana official BMV website. Let's take a look and see how easy it is to navigate the website.
 
+=> https://www.in.gov/bmv/ Indiana official BMV website
 => /public/thoughts/gov-web-bmv.png The main landing page of the Indiana bmv site, with a top bar, COVID-19 banner, portal area, and link anchor
 
 As soon as I open the site, I'm immediately overwhelmed by the sheer amount of content links clouding the page. I counted 29 different links to different pages. To make matters worse, each link is vague in what page content it will return. This is a classic example of "jaded routing" - overwhelming the user with an overly complicated website navigation system. This is worse than having no navigation at all because the sheer amount of choice overwhelms the user to the point of navigating away from the site. For example, if I wanted to schedule a permit test, my thought process might follow something like this:
@@ -143,7 +144,9 @@ Two years ago, when filling out my tax returns for 2018, I made a minor mistake 
 
 Physical mail always takes ages to arrive places, and by the time I had received the notice, I had already lost precious time to resubmit my tax returns. In fact, I only had four or five days left. I knew that my tax return might not make it to the IRS in time to meet the deadline, so I had to submit it online. After filling out the various forms, I attempted to log into the IRS website to submit the forms. I pressed "log in" and waited for the page to load... except the page never loaded.
 
-I waited 20 minutes before using browser debugging tools to notice that the IRS website had an internal [Ajax](<https://en.wikipedia.org/wiki/Ajax_(programming)>) request error. I don't think I even need to explain in detail the fact that Ajax was a good web development technology in, I don't know, 2009? This goes beyond poor web design - this is simply broken web design. The website did not function as intended. I waited two entire days before it worked and I was able to submit my tax return revisions properly.
+I waited 20 minutes before using browser debugging tools to notice that the IRS website had an internal Ajax request error. I don't think I even need to explain in detail the fact that Ajax was a good web development technology in, I don't know, 2009? This goes beyond poor web design - this is simply broken web design. The website did not function as intended. I waited two entire days before it worked and I was able to submit my tax return revisions properly.
+
+=> https://en.wikipedia.org/wiki/Ajax_(programming) Ajax
 
 ### So What?
 

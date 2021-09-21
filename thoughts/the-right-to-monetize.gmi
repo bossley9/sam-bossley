@@ -16,7 +16,7 @@ So what happened?
 
 Youtube. That's what happened.
 
-Youtube has historically historically been a free, community-driven platform. The concept of "social media" didn't even exist in 2005 when Youtube was first created; however, the intent of the founders was to create exactly that - a "social medium" through which members of many different communities can come together. It was designed _by nature_ to be a community-driven platform, open to the world. But no one could have ever imagined what this small community platform would become in the following 15 years. Today, Youtube is the second most popular site in the world (Alexa Sites, 2019) with over 500 hours of content being uploaded to Youtube every minute (Tubefilter, 2019). As a matter of fact, this community platform has not only connected people in the United States, but people from all over the world.
+Youtube has historically historically been a free, community-driven platform. The concept of "social media" didn't even exist in 2005 when Youtube was first created; however, the intent of the founders was to create exactly that - a "social medium" through which members of many different communities can come together. It was designed by nature to be a community-driven platform, open to the world. But no one could have ever imagined what this small community platform would become in the following 15 years. Today, Youtube is the second most popular site in the world (Alexa Sites, 2019) with over 500 hours of content being uploaded to Youtube every minute (Tubefilter, 2019). As a matter of fact, this community platform has not only connected people in the United States, but people from all over the world.
 
 => https://www.alexa.com/topsites Alexa Sites
 => https://www.tubefilter.com/2019/05/07/number-hours-video-uploaded-to-youtube-per-minute Tubefilter
@@ -24,7 +24,7 @@ Youtube has historically historically been a free, community-driven platform. Th
 => https://youtu.be/-5q5mZbe3V8 global connection (2)
 => https://youtu.be/W02Zfo3NuoI global connection (3)
 
-I think it goes without saying that Youtube has had a large impact on everyone's life in the past 10 years - myself included. Youtube has quite literally shaped the culture of the past three generations ([Using Youtube in the Classroom for the Net Generation of Students, 2013]) and continues to do so. Youtube is now considered "world media" in that "...it no longer makes sense to situate Youtube as separate from the 'mainstream media'" (YouTube: Online Video and Participatory Culture, 2018). It's safe to say that the Youtube platform has one of the strongest influences in most people's lives.
+I think it goes without saying that Youtube has had a large impact on everyone's life in the past 10 years - myself included. Youtube has quite literally shaped the culture of the past three generations (Using Youtube in the Classroom for the Net Generation of Students, 2013) and continues to do so. Youtube is now considered "world media" in that "...it no longer makes sense to situate Youtube as separate from the 'mainstream media'" (YouTube: Online Video and Participatory Culture, 2018). It's safe to say that the Youtube platform has one of the strongest influences in most people's lives.
 
 => iisit.org/Vol10/IISITv10p473-488Roodt0046.pdf Using Youtube in the Classroom...
 => https://books.google.com/books?hl=en&lr=&id=mg1rDwAAQBAJ&oi=fnd&pg=PT5&dq=info:PE8GHusog1wJ:scholar.google.com/&ots=RCnLTyl6pP&sig=0X1PoI6aSeyqWMiHeVgGWV2p2pU#v=onepage&q&f=false Youtube: Online Video ad Participatory Culture
@@ -39,7 +39,7 @@ On November 18, Youtube officially declared their "right to monetize" in their T
 
 What this means is that Youtube now has the ability to make money from free creator content. They are able to forcefully place ads on videos ("displaying ads on or within Content") And request payment in order to allow users access to creator content ("charging users a fee for access"). What was once a "free, community-driven platform" has now been reduced to the title of "platform". However, I have yet to overview the consequences for its end users - you and me. How does this policy change affect end users?
 
-Imagine watching a video from your favorite vlogger. You love their content and watch every second of the video - including the intro, outro, and you _even watch the ads_ with the intent of supporting that creator. But are you actually supporting that creator, or are you supporting Youtube? With Youtube's new policy, Youtube legally has the right to withhold all ad revenue from creators and keep it for themselves. When you thought you were financially supporting Jenna Marbles with your view, like, and subscribe, you were actually lining the pockets of the Youtube corporates.
+Imagine watching a video from your favorite vlogger. You love their content and watch every second of the video - including the intro, outro, and you even watch the ads with the intent of supporting that creator. But are you actually supporting that creator, or are you supporting Youtube? With Youtube's new policy, Youtube legally has the right to withhold all ad revenue from creators and keep it for themselves. When you thought you were financially supporting Jenna Marbles with your view, like, and subscribe, you were actually lining the pockets of the Youtube corporates.
 
 And it's completely legal.
 
@@ -71,7 +71,7 @@ I wanted to talk about this change in Youtube's Terms of Service for two reasons
 
 * To provide alternatives. I personally have already been looking for Youtube alternatives, and this was the final straw. Now that we know Youtube is doing this, how can we stop it? How can we possibly demonstrate our anger against the system?
 
-As many of you may already be aware, one way of circumventing this policy is through some form of ad-blocking. You can easily find [client ad-blocking software], download an an-blocking browser extension, use an ad-blocking browser, or even manipulate the content being displayed to your screen via custom user css. There are even web platforms such as Invidious which use Youtube APIs to strip ads and add features. I personally use youtube-dl to automatically download creator videos for viewing in my desktop video player.
+As many of you may already be aware, one way of circumventing this policy is through some form of ad-blocking. You can easily find client ad-blocking software, download an an-blocking browser extension, use an ad-blocking browser, or even manipulate the content being displayed to your screen via custom user css. There are even web platforms such as Invidious which use Youtube APIs to strip ads and add features. I personally use youtube-dl to automatically download creator videos for viewing in my desktop video player.
 
 => https://adblockultimate.net/ client blocker Adblock Ultimate
 => https://ublockorigin.com/ ad-block extension uBlock Origin

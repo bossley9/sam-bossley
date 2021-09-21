@@ -37,7 +37,9 @@ I recommend playing this game before continuing as I will inevitably spoil the p
 
 ## Plot
 
-Little Nightmares begins by (ironically) showing the player [a nightmare of a geisha looking towards the center of the screen](https://youtu.be/YYMx7RU0Igc?t=18) (bearing significance later in the story). The main character, a girl in a vibrant yellow rainjacket, wakes up frightened, and the game begins.
+Little Nightmares begins by (ironically) showing the player a nightmare of a geisha looking towards the center of the screen (bearing significance later in the story). The main character, a girl in a vibrant yellow rainjacket, wakes up frightened, and the game begins.
+
+=> https://youtu.be/YYMx7RU0Igc?t=18 geisha nightmare
 
 The game does not delineate any prologue, writing, or dialogue, so all of the plot is entirely inferred. As the girl, you begin exploring what appears to be the inner workings of some giant machine. The environment is dark and wet, and you seem to be alone (not accounting for the unnerving noises echoing in the distance). Very early on, it is evident that the main character is a small child as she crawls through ducts and the camera emphasizes the sheer scale of each room. She appears to be relatively normal in size until the player enters a room where a very large person is hanging, indicating that the main character may be comparatively much smaller than normal.
 
@@ -45,10 +47,10 @@ The game does not delineate any prologue, writing, or dialogue, so all of the pl
 => https://youtu.be/YYMx7RU0Igc?t=150 comparative scale of each room
 => https://youtu.be/YYMx7RU0Igc?t=217 large person hanging
 
-You eventually observe that there are other beings in this machine besides you - benevolent cone-shaped beings even smaller than you, who scurry away in fear at first sight. The player is also introduced to small black slug beings which only reside in the dark places in the machinery and [will kill the player if possible](https://youtu.be/YYMx7RU0Igc?t=395).
+You eventually observe that there are other beings in this machine besides you - benevolent cone-shaped beings even smaller than you, who scurry away in fear at first sight. The player is also introduced to small black slug beings which only reside in the dark places in the machinery and will kill the player if possible.
 
+=> https://youtu.be/YYMx7RU0Igc?t=395 deadly slugs
 => https://youtu.be/YYMx7RU0Igc?t=312 cone-shaped nomes
-
 => /public/thoughts/little-nightmares-nome.jpg A nome with a cone-shaped head
 
 In a large open bridge platform the player gets a glance of a much larger and intimidating being moving inside the compound dragging a cage, indicating that perhaps the main character is attempting escape. The character's tiny scale is emphasized further with massive household objects and rooms.
@@ -168,8 +170,9 @@ However, the Janitor in is different. There are no supernatural elements involve
 
 As with any horror game, anticipation is key element in conveying horrifying circumstances. The player needs to hesitate or feel scared. The player needs to fear the unknown.
 
-Little Nightmares does an amazing just of anticipation building simply through room transitions. When the player moves into a new room, the contents of that room are not shown until after the player has entered the room. Just as in real life, you cannot know what will await you in the next room until you enter the room. This adds to anticipation because you never know what will be in the next room. Occasionally when exiting a ventilation duct, I would hesitate because I know something terrifying might await me. Likewise, sometimes the [sounds and foreboding colors build anticipation knowing that something (or someone) awaits the main character in the next room](https://youtu.be/YYMx7RU0Igc?t=2853). In that specific instance, I intentionally loitered just outside the doorway because I knew the Janitor was in that room even if I could not see him.
+Little Nightmares does an amazing just of anticipation building simply through room transitions. When the player moves into a new room, the contents of that room are not shown until after the player has entered the room. Just as in real life, you cannot know what will await you in the next room until you enter the room. This adds to anticipation because you never know what will be in the next room. Occasionally when exiting a ventilation duct, I would hesitate because I know something terrifying might await me. Likewise, sometimes the sounds and foreboding colors build anticipation knowing that something (or someone) awaits the main character in the next room. In that specific instance, I intentionally loitered just outside the doorway because I knew the Janitor was in that room even if I could not see him.
 
+=> https://youtu.be/YYMx7RU0Igc?t=2853 foreboding sounds
 => https://youtu.be/YYMx7RU0Igc?t=3608 something just outside the vent
 
 Furthermore, the game uses lighting to emphasize anticipation and plot. In the chase scene mentioned earlier, the ground where the Janitor appears shows a spotlight as if something might happen near the light. This builds anticipation because the player can reasonably assume that some significant event will occur near the light and may hesitate to enter the light as I did (you can even see me looking up at the ceiling with the main character because I had a sense of foreboding that something might come from the ceiling, and I was correct in my assumptions). Even as the main character is about to be captured for the first time, the spotlight lies on the cage, adding suspense. You as the player know that you will be trapped in the cage but you don't know what is trapping you. This adds anticipation because it inadvertently tells the player that something is lurking in the shadows in the same room as the player (I even looked around with the camera to see if I could see anything before I walked into the trap).
