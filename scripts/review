@@ -1,0 +1,94 @@
+#!/usr/bin/env sh
+# vim:fdm=marker
+# writing quality checker
+
+# documentation/resources:
+# https://css-tricks.com/words-avoid-educational-writing/
+# https://developers.google.com/style
+
+NC="\033[0;34m"
+WARN="\033[1;34m"
+
+# validate {{{
+
+validate() {
+  file="$1"
+  # usage: checkRule (file) (actual) (prefers) (note)
+
+  # inclusivity
+  checkRule "$file" "crazy" "unbelievable" "e.g. this is unbelievable"
+  checkRule "$file" "insane" "unbelievable" "e.g. that's unbelievable!"
+  checkRule "$file" "spirit" "" "be cognisant of others' religious beliefs"
+  checkRule "$file" "god" "" "be cognisant of others' religious beliefs"
+  checkRule "$file" "blacklist" "blocklist" ""
+  checkRule "$file" "whitelist" "allowlist" ""
+
+  # tech
+  checkRule "$file" "ssh" "SSH" "capitalize abbreviations"
+  checkRule "$file" "TODO" "" "don't leave TODOs"
+  checkRule "$file" "todo" "" "don't leave TODOs"
+
+  # general english
+  checkRule "$file" "obvious" "" "not everything is obvious"
+  checkRule "$file" "basically" "" "explain clearly"
+  checkRule "$file" "[s|S]impl[e|y]" "" "if it's so simple then why mention it?"
+  checkRule "$file" "of course" "" "not everything is self-evident"
+  checkRule "$file" "clearly" "" "not everything is self-evident"
+  checkRule "$file" "just" "" "just is an add-on word that adds no semantics"
+  checkRule "$file" "So" "" "transition word with no semantics"
+  checkRule "$file" "I think" "I believe" "of course you think so because you're writing this"
+  checkRule "$file" " easy" "convenient" "if it's easy then why mention it?"
+  checkRule "$file" " [o|O]ur" "" "be more specific on who you are addressing"
+  checkRule "$file" "[w|W]e " "" "be more specific on who you are addressing"
+  checkRule "$file" "i\.e\." "that is" "prefer English terms over Latin abbreviations"
+  checkRule "$file" "e\.g\." "for example" "prefer English terms over Latin abbreviations"
+  checkRule "$file" "usually" "in most cases" "implies the subject could be unusual or bad"
+  checkRule "$file" "personally" "" "isn't everything you write personal?"
+}
+
+# }}}
+
+# checkRule {{{
+
+checkRule() {
+  file="$1"
+  actual="$2"
+  prefers="$3"
+  note="$4"
+
+  [ -n "$prefers" ] && prefers=" - try using '${prefers}'"
+  [ -n "$note" ] && note="(${note})"
+
+  matches="$(grep -rI --color=yes -e "$actual" "$file")"
+  if [ -z "$matches" ]; then return; fi
+
+  for match in "$matches"; do
+    warningMatches="$(( $warningMatches + 1 ))"
+    echo "${WARN}${file}:${NC} ${match}"
+    echo "\t${WARN}WARNING: usage of '${actual}'${prefers} ${note}${NC}\n"
+  done
+}
+
+# }}}
+
+# main {{{
+
+if [ -z "$1" ]; then
+  echo "USAGE: review (file or directory)"
+  return
+fi
+
+warningMatches=0
+
+if [ -d "$1" ]; then
+  for file in "${1}/"*; do
+    validate "$file"
+  done
+fi
+if [ -f "$1" ]; then
+  validate "$1"
+fi
+
+echo "${WARN}${warningMatches}${NC} warnings found."
+
+# }}}

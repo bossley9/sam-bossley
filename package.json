@@ -3,6 +3,7 @@
     "build:prepare": "./scripts/recGmi2md thoughts",
     "build:gmi": "./scripts/geminize",
     "build": "npm run build:prepare && eleventy && rm ./thoughts/*.md",
+    "review": "./scripts/review",
     "serve": "eleventy --serve",
     "clean": "rm -rf ./_site/ ./_site_gemini/",
     "export": "npm run clean && npm run build && npm run build:gmi"
